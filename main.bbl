@@ -1,0 +1,484 @@
+\begin{thebibliography}{10}
+
+\bibitem{wiki_ascii}
+See for~example Wikipedia.
+\newblock https://en.wikipedia.org/wiki/ascii.
+
+\bibitem{widrow2008}
+Bernard Widrow and Istv\'{a}n Koll\'{a}r.
+\newblock {\em Quantization Noise: Roundoff Error in Digital Computation,
+  Signal Processing, Control, and Communications}.
+\newblock Cambridge University Press, 2008.
+
+\bibitem{Griffiths}
+David Griffiths.
+\newblock {\em Introduction to Quantum Mechanics}.
+\newblock Pearson Prentice Hall, 2nd edition, 2005.
+
+\bibitem{Skeel1992}
+Robert Skeel.
+\newblock Roundoff error and the patriot missile.
+\newblock {\em SIAM News}, 25:11, nov 1992.
+
+\bibitem{Goldberg1991}
+David Goldberg.
+\newblock What every computer scientist should know about floating point
+  arithmetic.
+\newblock {\em ACM Computing Surveys}, 23(1):5--48, 1991.
+
+\bibitem{Zwillinger2012}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+
+\bibitem{Boas2006}
+Mary~L. Boas.
+\newblock {\em Mathematical Methods in the Physical Sciences}.
+\newblock Wiley, 3rd edition, 2006.
+
+\bibitem{mean_value_theorem}
+James Stewart.
+\newblock {\em Essential Calculus}.
+\newblock Cengage Learning, 2nd edition, 2012.
+\newblock Section 3.2.
+
+\bibitem{diff2}
+Milton Abramowitz and Irene~A. Stegun.
+\newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}.
+\newblock Dover Publications, 1970.
+\newblock Table 25.2.
+
+\bibitem{Blundell}
+Stephen~J. Blundell and Katherine~M. Blundell.
+\newblock {\em Concepts in Thermal Physics}.
+\newblock Oxford University Press, 2nd edition, 2010.
+
+\bibitem{Taylor2005}
+John~R. Taylor.
+\newblock {\em Classical Mechanics}.
+\newblock University Science Books, 2005.
+
+\bibitem{Goldstein2002}
+Herbert Goldstein, Charles Poole, and John Safko.
+\newblock {\em Classical Mechanics}.
+\newblock Addison Wesley, 3rd edition, 2002.
+
+\bibitem{heat_phonon}
+Charles Kittel.
+\newblock {\em Introduction o Solid State Physics}.
+\newblock Wiley, 8th edition, 2004.
+\newblock Chapter 5.
+
+\bibitem{heat_electron}
+Charles Kittel.
+\newblock {\em Introduction o Solid State Physics}.
+\newblock Wiley, 8th edition, 2004.
+\newblock Chapter 6.
+
+\bibitem{cubic_roots}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+\newblock Chapter 2.
+
+\bibitem{numerical_recipes}
+William~H. Press, Saul~A. Teukolsky, William~T. Vetterling, and Brian~P.
+  Flannery.
+\newblock {\em Numerical Recipes: The Art of Scientific Computing}.
+\newblock Cambridge University Press, 3rd edition, 2007.
+
+\bibitem{Ising}
+David Chandler.
+\newblock {\em Introduction to Modern Statistical Mechanics}.
+\newblock Oxford University Press, 1987.
+\newblock Section 5.4.
+
+\bibitem{square_well}
+David Griffiths.
+\newblock {\em Introduction to Quantum Mechanics}.
+\newblock Pearson Prentice Hall, 2nd edition, 2005.
+\newblock Section 2.6.
+
+\bibitem{morse_potential}
+Donald~A. McQuarrie.
+\newblock {\em Physical Chemistry: A Molecular Approach}.
+\newblock University Science Books, 1997.
+\newblock Chapter 5.
+
+\bibitem{qm_bounce}
+Julio Gea-Banacloche.
+\newblock A quantum bouncing ball.
+\newblock {\em American Journal of Physics}, 67:776, 1999.
+\newblock See also references therein.
+
+\bibitem{brusselator}
+Steven~H. Strogstz.
+\newblock {\em Nonlinear Dynamics and Chaos}.
+\newblock Addison Wesley, 1994.
+\newblock Section 8.3.
+
+\bibitem{limitcycle1}
+Albert Goldbeter.
+\newblock {\em Biochemical Oscillations and Ceulluar Rhythms}.
+\newblock Cambridge University Press, 1996.
+
+\bibitem{limitcycle2}
+Irving~R. Epstein and John~A. Pojman.
+\newblock {\em An Introduction to Nonlinear Chemical DynaChaos -- Ocillations,
+  Waves,Patterns. and Chaos}.
+\newblock Oxford University Press, 1998.
+
+\bibitem{chaos1}
+Steven~H. Strogstz.
+\newblock {\em Nonlinear Dynamics and Chaos}.
+\newblock Addison Wesley, 1994.
+\newblock Section 3.3.
+
+\bibitem{chaos2}
+G.~L. Baker and J.~P. Gollub.
+\newblock {\em Chaotiintroduction -- an introduction}.
+\newblock Cambridge University Press, 2nd edition, 1996.
+\newblock Section 7.1.
+
+\bibitem{sync}
+Steven Strogatz.
+\newblock {\em Sync: How Order Emerges From Chaos In the Universe, Nature, and
+  Daily Life}.
+\newblock Hachette Books, 2004.
+
+\bibitem{fireflies}
+Steven~H. Strogstz.
+\newblock {\em Nonlinear Dynamics and Chaos}.
+\newblock Addison Wesley, 1994.
+\newblock Section 4.5.
+
+\bibitem{coupled_oscillators}
+Steven~H. Strogstz.
+\newblock {\em Nonlinear Dynamics and Chaos}.
+\newblock Addison Wesley, 1994.
+\newblock Section 8.6.
+
+\bibitem{FitzHugh-Nagumo}
+Eugene~M. Izhikevich.
+\newblock {\em Dynamical Systems in Neuroscience: The Geometry of Excitability
+  and Bursting}.
+\newblock The MIT Press, 2007.
+\newblock Section 4.2.
+
+\bibitem{spring_pendulum}
+Tam\'{a}s T\'{e}l and M\'{a}rton Gruiz.
+\newblock {\em Chaotic Dynamics: An Introduction Based on Classical Mechanics}.
+\newblock Cambridge University Press, 2006.
+\newblock Section 7.4.2.
+
+\bibitem{airy_function}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+\newblock Section 6.22.15.
+
+\bibitem{airy_numerical}
+D.~Jentschura and E.~L\"{o}tstedt.
+\newblock Numerical calculation of bessel, hankel and airy functions.
+\newblock {\em Computer Physics Communications}, 183(3):506--519, 2012.
+
+\bibitem{homogeneous_bvp1}
+K.~F. Riley, M.~P. Hobson, and S.~J. Bence.
+\newblock {\em Mathematical Methods for Physics and Engineering}.
+\newblock Cambridge University Press, 3rd edition, 2006.
+\newblock Section 17.4.
+
+\bibitem{homogeneous_bvp2}
+Wolfgang Walter and R.~Thompson.
+\newblock {\em Ordinary Differential Equations}.
+\newblock Springer, 1998.
+\newblock Section 27.
+
+\bibitem{qmho}
+David Griffiths.
+\newblock {\em Introduction to Quantum Mechanics}.
+\newblock Pearson Prentice Hall, 2nd edition, 2005.
+\newblock Section 2.3.2.
+
+\bibitem{qm_morse}
+L.~D. Landau and L.~M. Lifshitz.
+\newblock {\em Quantum Mechanics: Non-Relativistic Theory}.
+\newblock Butterworth-Heinemann, 3rd edition, 1981.
+\newblock Section 23.
+
+\bibitem{hooke}
+John~R. Taylor.
+\newblock {\em Classical Mechanics}.
+\newblock University Science Books, 2005.
+\newblock Chapter 5.
+
+\bibitem{lapack}
+E.~Anderson, Z.~Bai, C.~Bischof, S.~Blackford, J.~Demmel, J.~Dongarra,
+  J.~Du~Croz, A.~Greenbaum, S.~Hammarling, A.~McKenney, and D.~Sorensen.
+\newblock {\em {LAPACK} Users' Guide}.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia, PA,
+  third edition, 1999.
+
+\bibitem{matrix_comp}
+Gene~H. Golub and Charles~F. Van~Loan.
+\newblock {\em Matrix Computations}.
+\newblock Johns Hopkins University Press, 4th edition, 2012.
+
+\bibitem{cg_min}
+Jonathan~Richard Shewchuk.
+\newblock An introduction to the conjugate gradient method without the
+  agonizing pain.
+\newblock This is unpublished document. Use Google to find it., 1994.
+
+\bibitem{graham-pollak}
+R.~L. Graham and H.~O. Polak.
+\newblock On the addressing problem for loop switching.
+\newblock {\em Bell System Tech. J.}, 50:2495--2519, 1971.
+
+\bibitem{graham-pollak2}
+Wigen Yan and Teong-Nan Yeh.
+\newblock A simple proof of graham and pollak's theorem.
+\newblock {\em Journal of Combinatorial Theory, Series A}, 113:892--893, 2006.
+
+\bibitem{gsl}
+Brian Gough, editor.
+\newblock {\em GNU Scientific Library Reference Manual}.
+\newblock Network Theory Ltd., 3rd edition, 2009.
+\newblock Free online documentation is available at
+  \texttt{http://www.gnu.org/software/gsl/}.
+
+\bibitem{coupled_osc}
+John~R. Taylor.
+\newblock {\em Classical Mechanics}.
+\newblock University Science Books, 2005.
+\newblock Chapter 11.
+
+\bibitem{tight_binding}
+David McIntyre, Corinne~A Manogue, and Janet Tate.
+\newblock {\em Quantum Mechanics: A Paradigms Approach}.
+\newblock Pearson Addison-Wesley, 2012.
+\newblock Chapter 15.
+
+\bibitem{inf_well}
+David McIntyre, Corinne~A Manogue, and Janet Tate.
+\newblock {\em Quantum Mechanics: A Paradigms Approach}.
+\newblock Pearson Addison-Wesley, 2012.
+\newblock Section 5.4.
+
+\bibitem{FFTW97}
+Matteo Frigo and Steven~G. Johnson.
+\newblock The fastest {Fourier} transform in the west.
+\newblock Technical Report MIT-LCS-TR-728, Massachusetts Institute of
+  Technology, September 1997.
+\newblock The source codes and manuals are available at
+  \texttt{http://www.fftw.org/}.
+
+\bibitem{Cooley1965}
+James~W. Cooley and John~W. Tukey.
+\newblock An algorithm for the machine calculation of complex fourier series.
+\newblock {\em Math Comput}, 19:297--301, 1965.
+
+\bibitem{decay_rate}
+David Halliday, Robert Resnick, and Jearl Walker.
+\newblock {\em Fundamentals of Physics}.
+\newblock Wiley, 10th edition, 2013.
+\newblock Chapter 42.
+
+\bibitem{prigogine68}
+I.~Prigogine and R.~Lefever.
+\newblock Symmetry breaking instabilities in dissipative systems. ii.
+\newblock {\em J. Chem. Phys.}, 48:1695, 1968.
+
+\bibitem{gamma_function}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+\newblock Section 6.14.
+
+\bibitem{central_limit_theorem}
+N.~G. Van~Kampen.
+\newblock {\em Stochastic Processes in Physics and Chemistry}.
+\newblock North Holland, 3rd edition, 2007.
+\newblock Section I.7.
+
+\bibitem{barometric}
+M\'{a}rio~N. Berberan-Santos, EvenyN. Bodunov, and Lionello Pogliani.
+\newblock On the barometric formula.
+\newblock {\em American Journal of Physics}, 65:404--412, 1997.
+
+\bibitem{ballistic_growth}
+Albert-Laszlo Barabasi and Harry~Eugene Stanley.
+\newblock {\em Fractal Concepts in Surface Growth}.
+\newblock Cambridge University Press, 1995.
+\newblock Chapter 2.
+
+\bibitem{surface_relaxation}
+Albert-Laszlo Barabasi and Harry~Eugene Stanley.
+\newblock {\em Fractal Concepts in Surface Growth}.
+\newblock Cambridge University Press, 1995.
+\newblock Chapter 5.
+
+\bibitem{dla}
+Jens Feder.
+\newblock {\em Fractals}.
+\newblock Plenum, 1988.
+\newblock Chapter 3.
+
+\bibitem{dla_theory}
+Jr. Witten, T.~A. and L.~M. Sander.
+\newblock Diffusion-limited aggregation, a kinetic critical phenomenon.
+\newblock {\em Physical Review Letters}, 1981.
+
+\bibitem{dendrite-experiment}
+M.~Matsushita, Y.~Hayakawa, and Y.~Sawada.
+\newblock Fractal structure and cluster statistics of zinc-metal trees de-
+  posited on a line electrode.
+\newblock {\em Physical Review A}, 32:3814(R), 1985.
+
+\bibitem{parrondo-game}
+G.~P. Harmer and D.~Abbott.
+\newblock Game theory: Losing strategies can win by parrondo's paradox.
+\newblock {\em Nature}, 402:864, 1999.
+
+\bibitem{ratchet-sciam}
+R.~Dean Astumian.
+\newblock Making molecules into motors.
+\newblock {\em Scientific American}, 285(1):57, July 2001.
+
+\bibitem{ratchet-phystoday}
+R.~Dean Astumian and Peter H\"{a}nggi.
+\newblock Brownian motors.
+\newblock {\em Physics Today}, pages 33--39, November 2002.
+
+\bibitem{sm1}
+David Chandler.
+\newblock {\em Introduction to Modern Statistical Mechanics}.
+\newblock Oxford University Press, 1987.
+
+\bibitem{sm2}
+Frederick Reif.
+\newblock {\em Fundamentals of Statistical and Thermal Physics}.
+\newblock Waveland Pr Inc, 2008.
+
+\bibitem{monte_carlo_methods}
+David~P. Landau and Kurt Binder.
+\newblock {\em A Guide to Monte Carlo Simulations in Statistical Physics}.
+\newblock Cambridge University Press, 4th edition, 2014.
+
+\bibitem{metropolis1953}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
+
+\bibitem{detailed_balance}
+Frederick Reif.
+\newblock {\em Fundamentals of Statistical and Thermal Physics}.
+\newblock Waveland Pr Inc, 2008.
+\newblock Section 9.5.
+
+\bibitem{percolation}
+Dietrich Stauffer and Ammon Aharony.
+\newblock {\em Introduction To Percolation Theory}.
+\newblock Taylor \& Francis, 2nd edition, 1994.
+
+\bibitem{hoshen1976}
+J.~Hoshen and R.~Kopelman.
+\newblock Percolation and cluster distribution. i. cluster multiple labeling
+  technique and critical concentration algorithm.
+\newblock {\em Physical Review B: Condensed Matter and Materials Physics},
+  14:3438--3445, Oct 1976.
+
+\bibitem{newman2001}
+M.~E.~J. Newman and R.~M. Ziff.
+\newblock Fast monte carlo algorithm for site or bond percolation.
+\newblock {\em Physical Review E: Statistical, Nonlinear, and Soft Matter
+  Physics}, 64:016706, Jun 2001.
+
+\bibitem{brownian_movement_einstein}
+Albert Einstein.
+\newblock {\em Investigations on the Theory of the Brownian Movement}.
+\newblock Dover Publications, 1956.
+
+\bibitem{langevin_eq_lemons}
+Don~S. Lemons and Anthony Gythiel.
+\newblock Paul langevin’s 1908 paper “on the theory of brownian motion”
+  [“sur la théorie du mouvement brownien,” c. r. acad. sci. (paris) 146,
+  530–533 (1908)].
+\newblock {\em American Journal of Physics}, 65(11):1079--1081, 1997.
+\newblock (An English tranlation of the original paper in French.).
+
+\bibitem{langevin_eq_zwanzig}
+Robert Zwanzig.
+\newblock {\em Nonequilibrium Statistical Mechanics}.
+\newblock Oxford University Press, 2001.
+\newblock Chapter 1.
+
+\bibitem{langevin_eq_sekimoto}
+Ken Sekimoto.
+\newblock {\em Stochastic Energetics}.
+\newblock Springer, 2010.
+\newblock Chapter 1.
+
+\bibitem{equipartition}
+Stephen~J. Blundell and Katherine~M. Blundell.
+\newblock {\em Concepts in Thermal Physics}.
+\newblock Oxford University Press, 2nd edition, 2010.
+\newblock Chapter 19.
+
+\bibitem{fd_theorem}
+Stephen~J. Blundell and Katherine~M. Blundell.
+\newblock {\em Concepts in Thermal Physics}.
+\newblock Oxford University Press, 2nd edition, 2010.
+\newblock Chapter 33.
+
+\bibitem{sr_wiesenfeld}
+Kurt Wiesenfeld and Frank Moss.
+\newblock Stochastic resonance and the benefits of noise: from ice ages to
+  crayfish and squids.
+\newblock {\em Nature}, 375:33--36, 1995.
+
+\bibitem{sr_bulsara}
+Adi~R. Bulsara and Luca Gammaitoni.
+\newblock Tuning in to noise.
+\newblock {\em Physics Today}, 1996.
+
+\bibitem{protein_folding}
+Alka Dwevedi.
+\newblock {\em Protein Folding: Examining the Challenges from Synthesis to
+  Folded Form (SpringerBriefs in Biochemistry and Molecular Biology)}.
+\newblock Springer, 2014.
+
+\bibitem{genetic_algorithm1}
+Randy~L. Haupt and Sue~Ellen Haupt.
+\newblock {\em Practical Genetic Algorithms}.
+\newblock Wiley-Interscience, 2nd edition edition, 2004.
+
+\bibitem{genetic_algorithm2}
+Mitchell Melanie.
+\newblock {\em An Introduction to Genetic Algorithms}.
+\newblock MIT Press, 1996.
+
+\bibitem{z-matrix}
+James~B. Foresman and AEleen Frisch.
+\newblock {\em Exploring Chemistry With Electronic Structure Methods: A Guide
+  to Using Gaussian}.
+\newblock Gaussian, 1996.
+\newblock Appendix B.
+
+\bibitem{thomson}
+J.~J. Thomson.
+\newblock On the structure of the atom: an investigation of the stability and
+  periods of oscillation of a number of corpuscles arranged at equal intervals
+  around the circumference of a circle; with application of the results to the
+  theory of atomic structure.
+\newblock {\em Philosophical Magazine}, 7:237--265, 1904.
+
+\bibitem{LaFave}
+Jr. LaFave, Tim.
+\newblock Correspondences between the classical electrostatic thomson problem
+  and atomic electronic structure.
+\newblock {\em Journal of Electrostatics}, 71(6):1029 -- 1035, 2013.
+
+\end{thebibliography}

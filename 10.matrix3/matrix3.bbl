@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{numerical_recipes}
+William~H. Press, Saul~A. Teukolsky, William~T. Vetterling, and Brian~P.
+  Flannery.
+\newblock {\em Numerical Recipes: The Art of Scientific Computing}.
+\newblock Cambridge University Press, 3rd edition, 2007.
+
+\bibitem{matrix_comp}
+Gene~H. Golub and Charles~F. Van~Loan.
+\newblock {\em Matrix Computations}.
+\newblock Johns Hopkins University Press, 4th edition, 2012.
+
+\bibitem{gsl}
+Brian Gough, editor.
+\newblock {\em GNU Scientific Library Reference Manual}.
+\newblock Network Theory Ltd., 3rd edition, 2009.
+\newblock Free online documentation is available at
+  \texttt{http://www.gnu.org/software/gsl/}.
+
+\bibitem{coupled_osc}
+John~R. Taylor.
+\newblock {\em Classical Mechanics}.
+\newblock University Science Books, 2005.
+\newblock Chapter 11.
+
+\bibitem{tight_binding}
+David McIntyre, Corinne~A Manogue, and Janet Tate.
+\newblock {\em Quantum Mechanics: A Paradigms Approach}.
+\newblock Pearson Addison-Wesley, 2012.
+\newblock Chapter 15.
+
+\bibitem{inf_well}
+David McIntyre, Corinne~A Manogue, and Janet Tate.
+\newblock {\em Quantum Mechanics: A Paradigms Approach}.
+\newblock Pearson Addison-Wesley, 2012.
+\newblock Section 5.4.
+
+\end{thebibliography}

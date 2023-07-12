@@ -1,0 +1,19 @@
+\subsection{Heating a rod}
+
+A general heat equation for one-dimensional system is given by
+\begin{equation}
+c_p \rho \frac{\partial T}{\partial t} = \kappa \frac{\partial^2 T}{\partial x^2} + q_\text{loss}
+\end{equation}
+where $c_p$, $\rho$ are specific heat capacity, mass density and heat conductivity, respectively.  $q_\text{loss}$ and $q_\text{source}$ are heat density lost to the environment. When the system is in a steady state, this partial differential equation becomes a ODE.
+
+Now, we consider a long metallic rod of length $L$ placed in a thermal environment.  The temperature of the environment is kept at $T_0$.
+Then, each end of the rod is attached to thermostat so that the temperature of the left end is kept at $T_L>T_0$ and the right end at $T_R >T_0$  As the temperature of the rod is higher than the environment, heat energy dissipate into the environment by
+\begin{equation}
+q_\text{loss} = - \mu (T - T_0)
+\end{equation}
+where $\mu$ is a positive constant.   We want to find the temperature profile of the rod.   It is convenient to use a temperature measure from $T_0$.  Introducing, $u=T-T_0$, the we have ODE 
+\begin{equation}
+\frac{\md ^2}{\md x^2} u(x) = - \mu u(x)
+\end{equation}
+with the boundary condition  $u(0)=T_L-T_0$ and $u(L)=T_R-T_0$.  Letting $w(x)=\mu$ and $S(x)=0$, this ODE can be integrated by the Numerov method.
+Use the parameter values $L=1$, $\mu=0.1$ and the boundary conditions $u(0)=100$ and $u(L)=0$.

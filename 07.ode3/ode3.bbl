@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{homogeneous_bvp1}
+K.~F. Riley, M.~P. Hobson, and S.~J. Bence.
+\newblock {\em Mathematical Methods for Physics and Engineering}.
+\newblock Cambridge University Press, 3rd edition, 2006.
+\newblock Section 17.4.
+
+\bibitem{homogeneous_bvp2}
+Wolfgang Walter and R.~Thompson.
+\newblock {\em Ordinary Differential Equations}.
+\newblock Springer, 1998.
+\newblock Section 27.
+
+\bibitem{qmho}
+David Griffiths.
+\newblock {\em Introduction to Quantum Mechanics}.
+\newblock Pearson Prentice Hall, 2nd edition, 2005.
+\newblock Section 2.3.2.
+
+\bibitem{qm_morse}
+L.~D. Landau and L.~M. Lifshitz.
+\newblock {\em Quantum Mechanics: Non-Relativistic Theory}.
+\newblock Butterworth-Heinemann, 3rd edition, 1981.
+\newblock Section 23.
+
+\bibitem{hooke}
+John~R. Taylor.
+\newblock {\em Classical Mechanics}.
+\newblock University Science Books, 2005.
+\newblock Chapter 5.
+
+\end{thebibliography}

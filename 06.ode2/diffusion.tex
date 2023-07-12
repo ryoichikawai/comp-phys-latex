@@ -1,0 +1,39 @@
+\subsection{Heating a rod}
+
+A general heat equation for one-dimensional system is given by
+\begin{equation}
+c_p \rho \frac{\partial T}{\partial t} = \kappa \frac{\partial^2 T}{\partial x^2} + q_\text{loss} + q_\text{source}
+\end{equation}
+where $c_p$, $\rho$ are specific heat capacity, mass density and heat conductivity, respectively.  $q_\text{loss}$ and $q_\text{source}$ are heat density lost to the environment and heat density injected to the system. When the system is in a steady state, this partial differential equation becomes a ODE.
+
+Now, we consider a very long metallic rod of length $L$ placed in a thermal environment.  The temperature of the environment is kept at $T_0$.
+The center of the rod is heated up by
+\begin{equation}
+q_\text{source} = A \me^{-(x-L/2)^2/a^2} 
+\end{equation}
+where $A$ and $a$ are positive constants. As the temperature of the rod is higher than the environment, heat energy dissipate into the environment by
+\begin{equation}
+q_\text{loss} = - \mu (T - T_0)
+\end{equation}
+where $\mu$ is a positive constant.  What is the boundary conditions?   There seems no boundary condition.  Actually, $q_\text{loss}$ and $q_\text{source}$ are the boundary conditions.  In order to maintain the steady state, the incoming energy must be perfectly balanced by the outgoing energy (conservation of energy).  Thus, 
+\begin{equation}\label{eq:energy_balance}
+\int_0^L \left ( q_\text{loss} + q_\text{source} \right ) \md x = 0\, .
+\end{equation}  
+This is the required boundary condition. We must find the temperature profile that satisfies this condition. 
+
+The ODE We assume that the temperature of the rod at both ends is $T_0$.  We want to find the temperature profile of the rod.  Use the parameter values $L=20$, $\kappa=1$, $A=1$, $a=1$ and $\mu=0.1$.  It is convenient to use a variable $u=T-T_0$. In summary, we want to solve 
+\begin{equation}
+\frac{\md ^2}{\md x^2} u(x) = - \mu u(x) + A \me^{-(x-L/2)^2/a^2}
+\end{equation}
+with the boundary condition (\ref{eq:energy_balance}).  Letting $w(x)=\mu$ and $S(x)=q_\text{source}$, this ODE can be integrated by the Numerov method.
+Since $S(x)$ is symmetric with respect to $x=L/2$, that is $S(x-L/2)=S(L/2-x)$, the temperature profile should have the same parity.
+Therefore, it is sufficient to find the solution only from $x=0$ to $x=L/2$.
+
+Since $q_\text{source}$ does not depend on the temperature, the total incoming heat per unit time is a constant given by
+\begin{equation}
+\int_0^L q_\text{source}\, \md x = A \int_0^L \me^{-(x-L/2)^2/a^2} \md x = a A \sqrt{\pi} \erf\left (\frac{L}{2a} \right )
+\end{equation}
+Then, the boundary condition (\ref{eq:energy_balance}) is simplified to
+\begin{equation}
+\int_0^L u(x)\, \md x = \frac{a A \sqrt{\pi}}{\mu} \erf\left (\frac{L}{2a} \right )
+\end{equation}

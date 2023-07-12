@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{lapack}
+E.~Anderson, Z.~Bai, C.~Bischof, S.~Blackford, J.~Demmel, J.~Dongarra,
+  J.~Du~Croz, A.~Greenbaum, S.~Hammarling, A.~McKenney, and D.~Sorensen.
+\newblock {\em {LAPACK} Users' Guide}.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia, PA,
+  third edition, 1999.
+
+\bibitem{matrix_comp}
+Gene~H. Golub and Charles~F. Van~Loan.
+\newblock {\em Matrix Computations}.
+\newblock Johns Hopkins University Press, 4th edition, 2012.
+
+\bibitem{cg_min}
+Jonathan~Richard Shewchuk.
+\newblock An introduction to the conjugate gradient method without the
+  agonizing pain.
+\newblock This is unpublished document. Use Google to find it., 1994.
+
+\bibitem{graham-pollak}
+R.~L. Graham and H.~O. Polak.
+\newblock On the addressing problem for loop switching.
+\newblock {\em Bell System Tech. J.}, 50:2495--2519, 1971.
+
+\bibitem{graham-pollak2}
+Wigen Yan and Teong-Nan Yeh.
+\newblock A simple proof of graham and pollak's theorem.
+\newblock {\em Journal of Combinatorial Theory, Series A}, 113:892--893, 2006.
+
+\end{thebibliography}

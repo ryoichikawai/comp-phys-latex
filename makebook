@@ -1,0 +1,27 @@
+#!/bin/tcsh
+pdflatex main.tex
+
+bibtex 01.numbers/numbers.aux
+bibtex 02.derivatives/derivatives.aux
+bibtex 03.integrals/integrals.aux
+bibtex 04.root-finding/root-finding.aux
+bibtex 05.ode1/ode1.aux
+bibtex 06.ode2/ode2.aux
+bibtex 07.ode3/ode3.aux
+bibtex 08.matrix1/matrix1.aux
+bibtex 09.matrix2/matrix2.aux
+bibtex 10.matrix3/matrix3.aux
+bibtex 11.fft/fft.aux
+bibtex 12.fitting/fitting.aux
+bibtex 13.pde1/pde1.aux
+bibtex 14.pde2/pde2.aux
+bibtex 15.Random-Numbers/random-numbers.aux
+bibtex 16.Random-Walk/random-walk.aux
+bibtex 17.Metropolis/metropolis.aux
+bibtex 18.Langevin/langevin.aux
+bibtex 19.Optimization/optimization.aux
+pdflatex main.tex
+pdflatex main.tex
+
+mv main.pdf textbook.pdf
+

@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{gamma_function}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+\newblock Section 6.14.
+
+\bibitem{central_limit_theorem}
+N.~G. Van~Kampen.
+\newblock {\em Stochastic Processes in Physics and Chemistry}.
+\newblock North Holland, 3rd edition, 2007.
+\newblock Section I.7.
+
+\bibitem{barometric}
+M\'{a}rio~N. Berberan-Santos, EvenyN. Bodunov, and Lionello Pogliani.
+\newblock On the barometric formula.
+\newblock {\em American Journal of Physics}, 65:404--412, 1997.
+
+\bibitem{ballistic_growth}
+Albert-Laszlo Barabasi and Harry~Eugene Stanley.
+\newblock {\em Fractal Concepts in Surface Growth}.
+\newblock Cambridge University Press, 1995.
+\newblock Chapter 2.
+
+\bibitem{surface_relaxation}
+Albert-Laszlo Barabasi and Harry~Eugene Stanley.
+\newblock {\em Fractal Concepts in Surface Growth}.
+\newblock Cambridge University Press, 1995.
+\newblock Chapter 5.
+
+\end{thebibliography}

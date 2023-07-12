@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{dla}
+Jens Feder.
+\newblock {\em Fractals}.
+\newblock Plenum, 1988.
+\newblock Chapter 3.
+
+\bibitem{dla_theory}
+Jr. Witten, T.~A. and L.~M. Sander.
+\newblock Diffusion-limited aggregation, a kinetic critical phenomenon.
+\newblock {\em Physical Review Letters}, 1981.
+
+\bibitem{dendrite-experiment}
+M.~Matsushita, Y.~Hayakawa, and Y.~Sawada.
+\newblock Fractal structure and cluster statistics of zinc-metal trees de-
+  posited on a line electrode.
+\newblock {\em Physical Review A}, 32:3814(R), 1985.
+
+\bibitem{parrondo-game}
+G.~P. Harmer and D.~Abbott.
+\newblock Game theory: Losing strategies can win by parrondo's paradox.
+\newblock {\em Nature}, 402:864, 1999.
+
+\bibitem{ratchet-sciam}
+R.~Dean Astumian.
+\newblock Making molecules into motors.
+\newblock {\em Scientific American}, 285(1):57, July 2001.
+
+\bibitem{ratchet-phystoday}
+R.~Dean Astumian and Peter H\"{a}nggi.
+\newblock Brownian motors.
+\newblock {\em Physics Today}, pages 33--39, November 2002.
+
+\end{thebibliography}

@@ -1,0 +1,51 @@
+\begin{example}[Catastrophic cancellation]
+	\label{ex:twosimilarvalues}
+	Evaluate $\displaystyle\frac{(x+1)^2-1}{x}$ for $x$ from $10^{-1}$ to $10^{-17}$.
+	Compare the numerical results with the exact solution, $x+2$, which is always bigger than 2 for positive $x$.  When $x$ is smaller than machine epsilon, computer thinks that $x+1=1$ and thus the result is zero!
+	\begin{center}
+		\begin{minipage}{0.9\textwidth}
+			\small
+			\begin{Verbatim}[frame=single]
+import numpy as np
+
+one32=np.float32(1.0)
+one64=np.float64(1.0)
+two32=np.float32(2.0)
+two64=np.float64(2.0)
+
+print("     x        y(32 bit)      y(64 bit)     x+2(32 bit)    x+2(64 bit) ")
+for i in range(1,18):
+x32=np.float32(10.0)**(-i)
+bad32=(np.float32(x32+one32)**2-one32)/x32
+good32=x32+two32
+x64=np.float64(10.0)**(-i)
+bad64=(np.float64(x64+one64)**2-one64)/x64
+good64=x64+two64
+print('{0:9.1e} {1:12.3f} {2:14.3f} {3:14.3f} {4:14.3f}'.format
+(x32,bad32,bad64,good32,good64)) 
+
+     x        y(32 bit)      y(64 bit)     x+2(32 bit)    x+2(64 bit) 
+     1.0e-01        2.100          2.100          2.100          2.100
+     1.0e-02        2.010          2.010          2.010          2.010
+     1.0e-03        2.001          2.001          2.001          2.001
+     1.0e-04        2.000          2.000          2.000          2.000
+     1.0e-05        2.003          2.000          2.000          2.000
+     1.0e-06        1.907          2.000          2.000          2.000
+     1.0e-07        2.384          2.000          2.000          2.000
+     1.0e-08        0.000          2.000          2.000          2.000
+     1.0e-09        0.000          2.000          2.000          2.000
+     1.0e-10        0.000          2.000          2.000          2.000
+     1.0e-11        0.000          2.000          2.000          2.000
+     1.0e-12        0.000          2.000          2.000          2.000
+     1.0e-13        0.000          1.998          2.000          2.000
+     1.0e-14        0.000          1.998          2.000          2.000
+     1.0e-15        0.000          2.220          2.000          2.000
+     1.0e-16        0.000          0.000          2.000          2.000
+     1.0e-17        0.000          0.000          2.000          2.000
+
+			\end{Verbatim}
+			\normalsize
+		\end{minipage}
+	\end{center}
+\end{example} 
+ 

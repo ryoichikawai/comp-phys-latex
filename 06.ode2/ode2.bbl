@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{airy_function}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+\newblock Section 6.22.15.
+
+\bibitem{airy_numerical}
+D.~Jentschura and E.~L\"{o}tstedt.
+\newblock Numerical calculation of bessel, hankel and airy functions.
+\newblock {\em Computer Physics Communications}, 183(3):506--519, 2012.
+
+\end{thebibliography}

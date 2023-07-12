@@ -1,0 +1,114 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\citation{protein_folding}
+\citation{genetic_algorithm1,genetic_algorithm2}
+\@writefile{toc}{\contentsline {chapter}{\numberline {19}Optimization}{485}{chapter.19}\protected@file@percent }
+\newlabel{ch:optimization}{{19}{485}{Optimization}{chapter.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19.1\relax }{\ignorespaces Local minimization along the downhill goes down to the local minimum. The global optimization must find the global minimum and thus the search method must be able to go over the barriers between minimums.\relax }}{486}{figure.caption.179}\protected@file@percent }
+\newlabel{fig:local_minimum}{{19.1\relax }{486}{Local minimization along the downhill goes down to the local minimum. The global optimization must find the global minimum and thus the search method must be able to go over the barriers between minimums.\relax }{figure.caption.179}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {19.1}Fitness Functions}{486}{section.19.1}\protected@file@percent }
+\newlabel{ex:global_harmonic_coupling}{{19.1}{487}{Fitness Functions}{equation.19.1.4}{}}
+\newlabel{eq:U_all_pairs}{{19.5}{487}{Fitness Functions}{equation.19.1.5}{}}
+\citation{z-matrix}
+\@writefile{lof}{\contentsline {figure}{\numberline {19.2\relax }{\ignorespaces The particles can jump between two minimums over the barrier. The transition rate $k_\rightarrow .$ from the deeper minimum at $x_1$ to the shallow minimum at $x_2$ is smaller than the other direction of transition rate $k_\leftarrow $. Its ratio is given by $k_\rightarrow /k_\leftarrow = \text  {e}^{-\Delta F/T}$. The particle current is $N_1 k_\rightarrow - N_2 k_\leftarrow $ where $N_i$ is the number of particle in the basin of $i$-th minimum. At thermal equilibrium particle current must vanish (detailed balance). Therefore, $N_1/N_2 = k_\leftarrow /k_\rightarrow > 1$. At thermal equilibrium, more particles are found in the deeper minimum than the other.\relax }}{488}{figure.caption.180}\protected@file@percent }
+\newlabel{fig:sa}{{19.2\relax }{488}{The particles can jump between two minimums over the barrier. The transition rate $k_\rightarrow .$ from the deeper minimum at $x_1$ to the shallow minimum at $x_2$ is smaller than the other direction of transition rate $k_\leftarrow $. Its ratio is given by $k_\rightarrow /k_\leftarrow = \me ^{-\Delta F/T}$. The particle current is $N_1 k_\rightarrow - N_2 k_\leftarrow $ where $N_i$ is the number of particle in the basin of $i$-th minimum. At thermal equilibrium particle current must vanish (detailed balance). Therefore, $N_1/N_2 = k_\leftarrow /k_\rightarrow > 1$. At thermal equilibrium, more particles are found in the deeper minimum than the other.\relax }{figure.caption.180}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {19.2}Simulated Annealing}{488}{section.19.2}\protected@file@percent }
+\newlabel{eq:sa_detailed_balance}{{19.7}{489}{Simulated Annealing}{equation.19.2.7}{}}
+\newlabel{algo:sa}{{19.1}{489}{Simulated Annealing}{Algorithm.19.1}{}}
+\newlabel{fig:sa_fitness}{{19.3\relax a}{490}{The final population.\relax }{figure.caption.181}{}}
+\newlabel{sub@fig:sa_fitness}{{a}{490}{The final population.\relax }{figure.caption.181}{}}
+\newlabel{fig:sa_evolution}{{19.3\relax b}{490}{Evolution of temperature and the lowest value of the fitness.\relax }{figure.caption.181}{}}
+\newlabel{sub@fig:sa_evolution}{{b}{490}{Evolution of temperature and the lowest value of the fitness.\relax }{figure.caption.181}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19.3\relax }{\ignorespaces Searching a global minimum by the simulated annealing method. Eight samplers explore the landscape of the fitness function based on Metropolis method. (a) The fitness landscape shows several local minimums and the rather high barrier between minimums. At the end of the annealing three out of eight samplers are trapped in the basin of the global minimum. The remaining samplers are trapped in local minimums. (b) The evolution of the temperature indicates the exponential cooling schedule. The lowest fitness values among the population randomly changes when the temperature is high. As temperature is reduced, the samples are trapped in basins of minimums and the lowest fitness value no longer changes significantly.\relax }}{490}{figure.caption.181}\protected@file@percent }
+\newlabel{fig:sa_example1}{{19.3\relax }{490}{Searching a global minimum by the simulated annealing method. Eight samplers explore the landscape of the fitness function based on Metropolis method. (a) The fitness landscape shows several local minimums and the rather high barrier between minimums. At the end of the annealing three out of eight samplers are trapped in the basin of the global minimum. The remaining samplers are trapped in local minimums. (b) The evolution of the temperature indicates the exponential cooling schedule. The lowest fitness values among the population randomly changes when the temperature is high. As temperature is reduced, the samples are trapped in basins of minimums and the lowest fitness value no longer changes significantly.\relax }{figure.caption.181}{}}
+\newlabel{ex:sa}{{19.2}{490}{Simulated Annealing}{Item.292}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {19.3}Genetic Algorithm}{490}{section.19.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19.4\relax }{\ignorespaces Schematic diagram of genetic algorithm. Evolution of a species which has only one gene. The population consists of four individuals. The horizontal axis indicates \textit  {genotype}. The genes of the first generation are chosen at random. A half of the population die due to the high fitness values. The remaining two individuals become a bleeding pair and generate two children whose genotype is between parent's gene. Now the size of population is back to four. The same process is repeated. The third and forth generations are shown. The unfit individuals die and the survived individuals are localized near the global minimum.\relax }}{491}{figure.caption.182}\protected@file@percent }
+\newlabel{fig:ga_diagram1}{{19.4\relax }{491}{Schematic diagram of genetic algorithm. Evolution of a species which has only one gene. The population consists of four individuals. The horizontal axis indicates \textit {genotype}. The genes of the first generation are chosen at random. A half of the population die due to the high fitness values. The remaining two individuals become a bleeding pair and generate two children whose genotype is between parent's gene. Now the size of population is back to four. The same process is repeated. The third and forth generations are shown. The unfit individuals die and the survived individuals are localized near the global minimum.\relax }{figure.caption.182}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19.5\relax }{\ignorespaces Effects of mutation: The left panel shows that all four individuals are trapped in the basin of a local minimum. Their children will be also in the same basin. To avoid this situation, an individual jumps to a random location (pink). This is the mutation. After the mutation, the individuals with higher fitness values die. If the mutated individual happened to fit better than others, it survives. The children born from the mutant are now outside of the basin of the local minimum. Now the four individuals are spread over three different minimums and thus the diversity of the population increased by the mutation.\relax }}{491}{figure.caption.183}\protected@file@percent }
+\newlabel{fig:ga_diagram2}{{19.5\relax }{491}{Effects of mutation: The left panel shows that all four individuals are trapped in the basin of a local minimum. Their children will be also in the same basin. To avoid this situation, an individual jumps to a random location (pink). This is the mutation. After the mutation, the individuals with higher fitness values die. If the mutated individual happened to fit better than others, it survives. The children born from the mutant are now outside of the basin of the local minimum. Now the four individuals are spread over three different minimums and thus the diversity of the population increased by the mutation.\relax }{figure.caption.183}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19.6\relax }{\ignorespaces Knuth shuffle algorithm\relax }}{493}{figure.caption.184}\protected@file@percent }
+\newlabel{fig:knuth_shuffle}{{19.6\relax }{493}{Knuth shuffle algorithm\relax }{figure.caption.184}{}}
+\newlabel{algo:ga}{{19.2}{494}{Genetic Algorithm}{Algorithm.19.2}{}}
+\newlabel{ex:ga}{{19.3}{494}{Genetic Algorithm}{Item.302}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19.7\relax }{\ignorespaces The evolution of the best fitness value. The best gene of the population gradually improves as the generation moves on. After 20th generation, the best fitness stays almost constant, indicating that the global minimum is discovered.\relax }}{495}{figure.caption.185}\protected@file@percent }
+\newlabel{fig:ga}{{19.7\relax }{495}{The evolution of the best fitness value. The best gene of the population gradually improves as the generation moves on. After 20th generation, the best fitness stays almost constant, indicating that the global minimum is discovered.\relax }{figure.caption.185}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {19.1\relax }{\ignorespaces Data set for Gaussian distribution\relax }}{495}{table.caption.186}\protected@file@percent }
+\newlabel{tbl:Gaussian}{{19.1\relax }{495}{Data set for Gaussian distribution\relax }{table.caption.186}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {19.4}Applications in Physics}{495}{section.19.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.1}Fitting to Gaussian Distribution}{495}{subsection.19.4.1}\protected@file@percent }
+\newlabel{ex:ga_gauss}{{19.4.1}{495}{Fitting to Gaussian Distribution}{subsection.19.4.1}{}}
+\citation{thomson}
+\citation{LaFave}
+\@writefile{lof}{\contentsline {figure}{\numberline {19.8\relax }{\ignorespaces The noisy data (Table \ref {tbl:Gaussian}) is plotted with red circles with the error bars. The solid line is the result of the optimization using the genetic algorithm.\relax }}{496}{figure.caption.187}\protected@file@percent }
+\newlabel{fig:ga_gauss}{{19.8\relax }{496}{The noisy data (Table \ref {tbl:Gaussian}) is plotted with red circles with the error bars. The solid line is the result of the optimization using the genetic algorithm.\relax }{figure.caption.187}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.2}Thomson problem}{496}{subsection.19.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19.9\relax }{\ignorespaces Thomson problem: Place $N$ point charges on the surface of a sphere such that the electrostatic potential energy is at the global minimum.\relax }}{497}{figure.caption.188}\protected@file@percent }
+\newlabel{fig:thomson}{{19.9\relax }{497}{Thomson problem: Place $N$ point charges on the surface of a sphere such that the electrostatic potential energy is at the global minimum.\relax }{figure.caption.188}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {19.5}Problems}{498}{section.19.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {}MATLAB Source Codes}{499}{section*.189}\protected@file@percent }
+\newlabel{prog:sa}{{19.1}{499}{MATLAB Source Codes}{program.19.1}{}}
+\newlabel{prog:ga}{{19.2}{500}{MATLAB Source Codes}{program.19.2}{}}
+\newlabel{prog:ga_gauss}{{19.3}{503}{MATLAB Source Codes}{program.19.3}{}}
+\newlabel{prog:thomson}{{19.4}{505}{MATLAB Source Codes}{program.19.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}Python Source Codes}{508}{section*.190}\protected@file@percent }
+\bibstyle{unsrt}
+\bibdata{compphys}
+\bibcite{protein_folding}{{1}{}{{}}{{}}}
+\bibcite{genetic_algorithm1}{{2}{}{{}}{{}}}
+\bibcite{genetic_algorithm2}{{3}{}{{}}{{}}}
+\bibcite{z-matrix}{{4}{}{{}}{{}}}
+\bibcite{thomson}{{5}{}{{}}{{}}}
+\bibcite{LaFave}{{6}{}{{}}{{}}}
+\@setckpt{19.Optimization/optimization}{
+\setcounter{page}{520}
+\setcounter{equation}{16}
+\setcounter{enumi}{1}
+\setcounter{enumii}{5}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{19}
+\setcounter{section}{5}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{9}
+\setcounter{table}{1}
+\setcounter{theorem}{0}
+\setcounter{algo}{0}
+\setcounter{parentequation}{36}
+\setcounter{FancyVerbLine}{0}
+\setcounter{linenumber}{1}
+\setcounter{LN@truepage}{551}
+\setcounter{FV@TrueTabGroupLevel}{0}
+\setcounter{FV@TrueTabCounter}{0}
+\setcounter{FV@HighlightLinesStart}{0}
+\setcounter{FV@HighlightLinesStop}{0}
+\setcounter{FancyVerbLineBreakLast}{0}
+\setcounter{FV@BreakBufferDepth}{0}
+\setcounter{tcbbreakpart}{1}
+\setcounter{tcblayer}{0}
+\setcounter{tcolorbox@number}{79}
+\setcounter{caption@flags}{2}
+\setcounter{continuedfloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{section@level}{1}
+\setcounter{Item}{303}
+\setcounter{Hfootnote}{19}
+\setcounter{bookmark@seq@number}{252}
+\setcounter{NAT@ctr}{6}
+\setcounter{AM@survey}{0}
+\setcounter{lstnumber}{80}
+\setcounter{program}{4}
+\setcounter{Algorithm}{2}
+\setcounter{exercise}{0}
+\setcounter{mathematica}{0}
+\setcounter{problem}{0}
+\setcounter{appendix}{0}
+\setcounter{lstlisting}{0}
+}

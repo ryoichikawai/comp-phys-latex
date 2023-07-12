@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{cubic_roots}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+\newblock Chapter 2.
+
+\bibitem{numerical_recipes}
+William~H. Press, Saul~A. Teukolsky, William~T. Vetterling, and Brian~P.
+  Flannery.
+\newblock {\em Numerical Recipes: The Art of Scientific Computing}.
+\newblock Cambridge University Press, 3rd edition, 2007.
+
+\bibitem{Ising}
+David Chandler.
+\newblock {\em Introduction to Modern Statistical Mechanics}.
+\newblock Oxford University Press, 1987.
+\newblock Section 5.4.
+
+\bibitem{square_well}
+David Griffiths.
+\newblock {\em Introduction to Quantum Mechanics}.
+\newblock Pearson Prentice Hall, 2nd edition, 2005.
+\newblock Section 2.6.
+
+\bibitem{morse_potential}
+Donald~A. McQuarrie.
+\newblock {\em Physical Chemistry: A Molecular Approach}.
+\newblock University Science Books, 1997.
+\newblock Chapter 5.
+
+\bibitem{qm_bounce}
+Julio Gea-Banacloche.
+\newblock A quantum bouncing ball.
+\newblock {\em American Journal of Physics}, 67:776, 1999.
+\newblock See also references therein.
+
+\end{thebibliography}

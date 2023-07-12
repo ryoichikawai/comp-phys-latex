@@ -1,0 +1,156 @@
+
+ \usepackage{amsmath}
+ \usepackage{amsfonts}
+ \usepackage{amssymb}
+ \usepackage[mathscr]{eucal}
+ \usepackage{fancyvrb,fvextra}
+ \usepackage{tcolorbox}
+ \usepackage{color}
+ \usepackage{graphicx}
+ \usepackage{fancybox}
+ \usepackage{datetime}
+ \usepackage{mathtools}
+ %\usepackage{caption}
+ \usepackage{subcaption}
+ \usepackage[colorlinks=true]{hyperref}
+ \usepackage{enumitem}
+ \usepackage{chapterbib}
+ \usepackage{natbib}
+ \usepackage{url}
+ \usepackage{xcolor}
+ \usepackage{physics}
+ \usepackage{wasysym}
+ \usepackage{pdfpages}
+ \usepackage{lmodern}
+ \usepackage{listings}
+ \usepackage{courier}
+ 
+%\usepackage{fullpage} 
+%\usepackage[normalsize]{subfigure}
+%\usepackage{subfig}
+ 
+\definecolor{cream}{RGB}{255,255,204}
+
+\setitemize{fullwidth}
+\setlength{\textwidth}{6.5in}
+%\setlength{\itemindent}{2in}
+\setlength{\pdfpagewidth}{8.5in}
+\setlength{\pdfpageheight}{11in}
+
+
+\newcounter{program}[chapter]
+ \setcounter{program}{0}
+ \renewcommand{\theprogram}{\arabic{chapter}.\arabic{program}}
+ \newcommand{\program}[1]{\refstepcounter{program} \textbf{Program} \textbf{\theprogram}~~#1}
+ 
+\newcounter{Algorithm}[chapter]
+\setcounter{Algorithm}{0}
+\renewcommand{\theAlgorithm}{\arabic{chapter}.\arabic{Algorithm}}
+ \newcommand{\Algorithm}[1]{\refstepcounter{Algorithm} \centerline{ \textbf{Algorithm \theAlgorithm}~~#1}}
+ 
+%\newcounter{exercise}[chapter]
+%\setcounter{exercise}{0}
+%\renewcommand{\theexercise}{\arabic{chapter}.\arabic{exercise}}
+%\newcommand{\exercise}[1]{\refstepcounter{exercise}\setlength{\parindent}{0cm} \textbf{Exercise \theexercise}~~#1}
+
+\newcounter{exercise}[chapter]
+\setcounter{exercise}{0}
+\renewcommand{\theexercise}{\arabic{chapter}.\arabic{exercise}}
+% \newcommand{\exercise}[1]{\refstepcounter{exercise}\noindent \textbf{Exercise \theexercise}~~#1}
+
+\newenvironment{exercise}[1][\unskip]{%
+    \par
+    \noindent
+    \refstepcounter{exercise}
+    \textbf{Exercise \theexercise}~~#1
+    \noindent}
+
+
+\newcounter{mathematica}[chapter]
+\setcounter{mathematica}{0}
+\renewcommand{\themathematica}{\arabic{chapter}.\arabic{mathematica}}
+\newcommand{\mathematica}[1]{\refstepcounter{mathematica}\setlength{\parindent}{0cm} \includegraphics[width=0.11in]{mathematica.pdf} \textbf{Mathematica Note \themathematica}~~#1}
+
+ \newcounter{problem}[chapter]
+ \setcounter{problem}{0}
+ \renewcommand{\theproblem}{\arabic{chapter}.\arabic{problem}}
+ \newcommand{\problem}[1]{\refstepcounter{problem} \textbf{\theproblem}~~#1}
+        
+ \newcounter{appendix}[chapter]
+ \renewcommand{\theappendix}{\arabic{chapter}.\Roman{appendix}}
+ \renewcommand{\appendix}[1]{\refstepcounter{appendix} \noindent \textbf{\theappendix~ #1}}
+ 
+ \DeclareMathOperator{\Ai}{Ai}
+ \DeclareMathOperator{\Bi}{Bi}
+ 
+ \usepackage{lipsum}
+
+% footnote setting
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+\newcommand{\rulebegin}{\centerline{\rule[0.3em]{2.5in}{0.01in}$\blacktriangledown\blacktriangledown\blacktriangledown$\rule[0.3em]{2.5in}{0.01in}}}
+\newcommand{\ruleend}{\centerline{\rule[0.3em]{2.5in}{0.01in}$\blacktriangle\blacktriangle\blacktriangle$\rule[0.3em]{2.5in}{0.01in}}}
+ 
+\newcommand{\kb}{k_\text{B}}
+\newcommand{\kB}{k_\text{B}}
+\newcommand{\me}{\text{e}}
+\newcommand{\md}{\text{d}}
+%\newcommand{\ket}[1]{\mid #1 \rangle}
+%\newcommand{\bra}[1]{\langle #1 \mid}
+\newcommand{\bracket}[2]{\langle #1 \mid #2 \rangle}
+\newcommand{\mean}[1]{\langle #1 \rangle}
+\newcommand{\obracket}[3]{\langle #1 \mid #2 \mid #3 \rangle}
+\newcommand{\cumulant}[1]{\langle\langle #1 \rangle\rangle}
+%\newcommand{\erf}{\text{ erf}}
+\newcommand{\erfc}{\text{ erfc}}
+\newcommand{\bsymb}[1]{\boldsymbol{#1}}
+\newcommand{\mathematca}{\textit{Mathematica}}
+\newcommand{\chline}{\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil}
+\DeclareMathOperator{\sign}{sgn}
+
+\newenvironment{mybox}
+	{
+	\begin{center}
+	\begin{tcolorbox}[width=0.90\textwidth]
+	}
+	{
+	\end{tcolorbox}
+	\end{center}	
+	}
+\newenvironment{myalgobox}
+{
+	\begin{center}
+		\begin{tcolorbox}[width=0.90\textwidth,colback=yellow!5!white]
+		}
+		{
+		\end{tcolorbox}
+	\end{center}	
+}
+
+% parameters for listings environment
+\lstset{framextopmargin=50pt,frame=bottomline}	
+\lstset{language=matlab,
+   basicstyle=\footnotesize\ttfamily,
+   keywordstyle=\color{blue}\ttfamily\bfseries,
+   stringstyle=\color{magenta}\ttfamily,
+   commentstyle=\color{gray},
+   breaklines=true}
+\lstset{language=python,
+   basicstyle=\footnotesize\ttfamily,
+   keywordstyle=\color{blue}\ttfamily\bfseries,
+   stringstyle=\color{magenta}\ttfamily,
+   commentstyle=\color{gray},
+   breaklines=true,
+   }

@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{protein_folding}
+Alka Dwevedi.
+\newblock {\em Protein Folding: Examining the Challenges from Synthesis to
+  Folded Form (SpringerBriefs in Biochemistry and Molecular Biology)}.
+\newblock Springer, 2014.
+
+\bibitem{genetic_algorithm1}
+Randy~L. Haupt and Sue~Ellen Haupt.
+\newblock {\em Practical Genetic Algorithms}.
+\newblock Wiley-Interscience, 2nd edition edition, 2004.
+
+\bibitem{genetic_algorithm2}
+Mitchell Melanie.
+\newblock {\em An Introduction to Genetic Algorithms}.
+\newblock MIT Press, 1996.
+
+\bibitem{z-matrix}
+James~B. Foresman and AEleen Frisch.
+\newblock {\em Exploring Chemistry With Electronic Structure Methods: A Guide
+  to Using Gaussian}.
+\newblock Gaussian, 1996.
+\newblock Appendix B.
+
+\bibitem{thomson}
+J.~J. Thomson.
+\newblock On the structure of the atom: an investigation of the stability and
+  periods of oscillation of a number of corpuscles arranged at equal intervals
+  around the circumference of a circle; with application of the results to the
+  theory of atomic structure.
+\newblock {\em Philosophical Magazine}, 7:237--265, 1904.
+
+\bibitem{LaFave}
+Jr. LaFave, Tim.
+\newblock Correspondences between the classical electrostatic thomson problem
+  and atomic electronic structure.
+\newblock {\em Journal of Electrostatics}, 71(6):1029 -- 1035, 2013.
+
+\end{thebibliography}

@@ -1,0 +1,208 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/TeX Live for SUSE Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: part1.aux
+A level-1 auxiliary file: 01.numbers/numbers.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: 02.derivatives/derivatives.aux
+Illegal, another \bibstyle command---line 35 of file 02.derivatives/derivatives.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 36 of file 02.derivatives/derivatives.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 03.integrals/integrals.aux
+Illegal, another \bibstyle command---line 95 of file 03.integrals/integrals.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 96 of file 03.integrals/integrals.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 04.root-finding/root-finding.aux
+Illegal, another \bibstyle command---line 78 of file 04.root-finding/root-finding.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 79 of file 04.root-finding/root-finding.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 05.ode1/ode1.aux
+Illegal, another \bibstyle command---line 129 of file 05.ode1/ode1.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 130 of file 05.ode1/ode1.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 06.ode2/ode2.aux
+Illegal, another \bibstyle command---line 44 of file 06.ode2/ode2.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 45 of file 06.ode2/ode2.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 07.ode3/ode3.aux
+Illegal, another \bibstyle command---line 46 of file 07.ode3/ode3.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 47 of file 07.ode3/ode3.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 08.matrix1/matrix1.aux
+Illegal, another \bibstyle command---line 90 of file 08.matrix1/matrix1.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 91 of file 08.matrix1/matrix1.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 09.matrix2/matrix2.aux
+Illegal, another \bibstyle command---line 27 of file 09.matrix2/matrix2.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 28 of file 09.matrix2/matrix2.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 10.matrix3/matrix3.aux
+Illegal, another \bibstyle command---line 61 of file 10.matrix3/matrix3.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 62 of file 10.matrix3/matrix3.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 11.fft/fft.aux
+Illegal, another \bibstyle command---line 58 of file 11.fft/fft.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 59 of file 11.fft/fft.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 12.fitting/fitting.aux
+Illegal, another \bibstyle command---line 81 of file 12.fitting/fitting.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 82 of file 12.fitting/fitting.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 13.pde1/pde1.aux
+Illegal, another \bibstyle command---line 62 of file 13.pde1/pde1.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 63 of file 13.pde1/pde1.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 14.PDE2/pde2.aux
+A level-1 auxiliary file: part2.aux
+A level-1 auxiliary file: 15.Random-Numbers/random-numbers.aux
+Illegal, another \bibstyle command---line 85 of file 15.Random-Numbers/random-numbers.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 86 of file 15.Random-Numbers/random-numbers.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 16.Random-Walk/random-walk.aux
+Illegal, another \bibstyle command---line 60 of file 16.Random-Walk/random-walk.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 61 of file 16.Random-Walk/random-walk.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 17.Metropolis/metropolis.aux
+Illegal, another \bibstyle command---line 60 of file 17.Metropolis/metropolis.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 61 of file 17.Metropolis/metropolis.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 18.Langevin/langevin.aux
+Illegal, another \bibstyle command---line 106 of file 18.Langevin/langevin.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 107 of file 18.Langevin/langevin.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 19.Optimization/optimization.aux
+Illegal, another \bibstyle command---line 55 of file 19.Optimization/optimization.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 56 of file 19.Optimization/optimization.aux
+ : \bibdata
+ :         {compphys}
+I'm skipping whatever remains of this command
+Database file #1: compphys.bib
+Warning--entry type for "wiki_ascii" isn't style-file defined
+--line 778 of file compphys.bib
+Name 1 in "Cooley, James W., and Tukey, John W." has a comma at the end for entry Cooley1965
+while executing---line 944 of file unsrt.bst
+You've used 83 entries,
+            1791 wiz_defined-function locations,
+            855 strings with 12642 characters,
+and the built_in function-call counts, 14876 in all, are:
+= -- 1341
+> -- 560
+< -- 2
++ -- 228
+- -- 145
+* -- 661
+:= -- 2410
+add.period$ -- 288
+call.type$ -- 83
+change.case$ -- 52
+chr.to.int$ -- 0
+cite$ -- 83
+duplicate$ -- 800
+empty$ -- 1623
+format.name$ -- 145
+if$ -- 3424
+int.to.chr$ -- 0
+int.to.str$ -- 83
+missing$ -- 137
+newline$ -- 457
+num.names$ -- 84
+pop$ -- 372
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 230
+stack$ -- 0
+substring$ -- 418
+swap$ -- 89
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 115
+width$ -- 85
+write$ -- 958
+(There were 35 error messages)

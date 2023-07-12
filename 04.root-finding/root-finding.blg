@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/TeX Live for SUSE Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 04.root-finding/root-finding.aux
+The style file: unsrt.bst
+Database file #1: compphys.bib
+You've used 6 entries,
+            1791 wiz_defined-function locations,
+            486 strings with 4287 characters,
+and the built_in function-call counts, 1031 in all, are:
+= -- 92
+> -- 34
+< -- 0
++ -- 15
+- -- 9
+* -- 39
+:= -- 175
+add.period$ -- 23
+call.type$ -- 6
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 59
+empty$ -- 115
+format.name$ -- 9
+if$ -- 237
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 11
+newline$ -- 38
+num.names$ -- 6
+pop$ -- 28
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 9
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 7
+width$ -- 7
+write$ -- 76

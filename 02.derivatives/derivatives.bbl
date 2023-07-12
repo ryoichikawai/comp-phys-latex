@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{Boas2006}
+Mary~L. Boas.
+\newblock {\em Mathematical Methods in the Physical Sciences}.
+\newblock Wiley, 3rd edition, 2006.
+
+\bibitem{mean_value_theorem}
+James Stewart.
+\newblock {\em Essential Calculus}.
+\newblock Cengage Learning, 2nd edition, 2012.
+\newblock Section 3.2.
+
+\bibitem{Zwillinger2012}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+
+\bibitem{diff2}
+Milton Abramowitz and Irene~A. Stegun.
+\newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}.
+\newblock Dover Publications, 1970.
+\newblock Table 25.2.
+
+\end{thebibliography}

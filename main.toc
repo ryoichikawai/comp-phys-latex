@@ -1,0 +1,290 @@
+\contentsline {schapter}{List of Figures}{xvii}{chapter*.3}%
+\contentsline {schapter}{List of Tables}{xxvii}{chapter*.4}%
+\contentsline {schapter}{Preface}{xxix}{chapter*.5}%
+\contentsline {schapter}{Acknowledgments}{xxxi}{chapter*.6}%
+\gdef \the@ipfilectr {@-1}
+\contentsline {chapter}{\numberline {1}Numerical Values and Quantization Errors}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Bits}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Integers}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Characters}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Floating Point Numbers}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Overflow/Underflow}{6}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Machine Epsilon}{8}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Round-off Errors}{9}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Loss of Significance}{10}{section.1.8}%
+\contentsline {section}{\numberline {}Problems}{12}{section*.12}%
+\contentsline {section}{\numberline {}Examples in Python}{13}{section*.13}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{19}{section*.14}%
+\contentsline {section}{\numberline {}Python Source Codes}{20}{section*.15}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\contentsline {chapter}{\numberline {2}Numerical Derivatives}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}First order derivatives}{23}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Second order derivatives}{28}{section.2.2}%
+\contentsline {section}{\numberline {}Problems}{28}{section*.19}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{29}{section*.20}%
+\contentsline {section}{\numberline {}Python Source Codes}{31}{section*.21}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {chapter}{\numberline {3}Numerical Integration}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Rectangular rule}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Trapezoidal rule}{37}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Simpson method}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Adaptive quadrature}{40}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Improper Integrals}{41}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Improper Integrals: $\infty $ in Limits}{41}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Improper Integrals II: Integrable Singularities}{42}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Gaussian Quadrature}{43}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Applications in Physics}{44}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Period of Classical Oscillation I.}{44}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Scattering by Yukawa Potential: Part 1}{45}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Debye Model of Heat Capacity}{47}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Heat Capacity of Free Electron Gas}{48}{subsection.3.6.4}%
+\contentsline {section}{\numberline {}Problems}{50}{section*.30}%
+\contentsline {section}{\numberline {}Appendix}{51}{section*.31}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{55}{section*.35}%
+\contentsline {section}{\numberline {}Examples in Python}{57}{section*.36}%
+\contentsline {section}{\numberline {}Python Source Codes}{58}{section*.37}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {4}Root Finding}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Quadratic, Cubic, and Quartic Polynomials}{63}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Quadratic Polynomials}{63}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Cubic Polynomials}{65}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Quartic Polynomials}{66}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Iterative Methods}{66}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Bisection method}{67}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Newton-Raphson method}{68}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Secant method}{69}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Applications in Physics Problems}{71}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Magnetic Phase Transition}{71}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Energy of a Quantum Particle in a Square Potential}{72}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Classical Turning Points}{73}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Closest Approach in Scattering}{73}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Problems}{74}{section.4.4}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{75}{section*.44}%
+\contentsline {section}{\numberline {}Python Source Codes}{81}{section*.45}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\numberline {5}Ordinary Differential Equations I:\\ {Initial Value Problems}}{91}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Standard forms of Initial Value Problems in Physics}{91}{section.5.1}%
+\contentsline {section}{\numberline {5.2}First Order Differential Equations}{92}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Euler Method}{92}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Predictor-Corrector Method}{94}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}2nd-Order Runge-Kutta Method}{95}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}4th-Order Runge-Kutta Method}{97}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Adaptive Step: Runge-Kutta-Fehlberg Method}{98}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}Coupled ODEs}{100}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Second-Order Differential Equations}{101}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Converting to a Coupled First-Order ODEs}{102}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Verlet Method}{103}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Applications in Physics}{105}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Nonlinear Chemical Dynamics: Brusselator}{105}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Nonlinear Dynamics in Laser: Maxwell-Bloch equation}{106}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Frequency Entrainment and Phase Synchronization}{106}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Period of Oscillation}{107}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}Pendulum}{108}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Scattering Angle}{109}{subsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.5.7}Double Pendulum}{110}{subsection.5.5.7}%
+\contentsline {section}{\numberline {5.6}Problems}{112}{section.5.6}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{114}{section*.64}%
+\contentsline {section}{\numberline {}Python Source Codes}{129}{section*.65}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\numberline {6}Ordinary Differential Equations II: Boundary Value Problems}{141}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Shooting method}{141}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Numerov method}{143}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Applications in Physics}{146}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Quantum Free Falling (See Problem 3.3)}{146}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Heating a rod}{147}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Problems}{149}{section.6.4}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{150}{section*.71}%
+\contentsline {section}{\numberline {}Python Source Codes}{157}{section*.72}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\numberline {7}Ordinary Differential Equations III: Eigenvalue Problems}{167}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Shooting Method for Eigenvalue Problems}{168}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Applications in Physical Problems}{170}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Quamtum Harmonic Oscillator}{170}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Bouncing Quantum Particle}{171}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Diatomic Molecules}{173}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}Problems}{175}{section.7.3}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{176}{section*.80}%
+\contentsline {section}{\numberline {}Python Source Codes}{184}{section*.81}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\contentsline {chapter}{\numberline {8}Matrix I: Linear Algebraic Equations}{195}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Triangular Matrices}{196}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Forward/Back Substitutions}{197}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}Gaussian Elimination}{198}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Elmination Procedures}{199}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Pivoting}{200}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Determinant}{203}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Matrix Inversion}{203}{subsection.8.2.4}%
+\contentsline {section}{\numberline {8.3}$LU$ Decomposition}{204}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Decomposition Algorithm}{204}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Linear equations}{205}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Matrix Inverse}{206}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}Determinant}{206}{subsection.8.3.4}%
+\contentsline {section}{\numberline {8.4}Tridiagonal Matrices}{207}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Linear Equations}{207}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Determinant and Inverse}{208}{subsection.8.4.2}%
+\contentsline {section}{\numberline {8.5}Solving Linear Equations by Minimization}{208}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Steepest Descent Method}{209}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Conjugate Gradient Method}{210}{subsection.8.5.2}%
+\contentsline {section}{\numberline {8.6}Applications in Physics}{212}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Multiloop circute: Kirchhoff rules}{212}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Coupled Harmonic Oscillators in a Uniform Gravity}{213}{subsection.8.6.2}%
+\contentsline {subsection}{\numberline {8.6.3}Determinant of Tree Graphs: Graham-Pollack theorem}{213}{subsection.8.6.3}%
+\contentsline {section}{\numberline {8.7}Problems}{215}{section.8.7}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{216}{section*.86}%
+\contentsline {section}{\numberline {}Python Source Codes}{225}{section*.87}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {chapter}{\numberline {9}Matrix II: Nonlinear Equations}{239}{chapter.9}%
+\contentsline {subsection}{\numberline {9.0.1}Multi-Dimensional Newton-Raphson Methods}{240}{subsection.9.0.1}%
+\contentsline {subsection}{\numberline {9.0.2}Broyden method: (Multidimentional Secant Method)}{242}{subsection.9.0.2}%
+\contentsline {section}{\numberline {9.1}Minimization of Mutivariable Non-Linear Functions}{242}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Applications in Physics}{243}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Steady states in Laser Dynamics}{243}{subsection.9.2.1}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{244}{section*.92}%
+\contentsline {section}{\numberline {}Python Source Codes}{247}{section*.93}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-10}
+\contentsline {chapter}{\numberline {10}Matrix III: Eigenvalue Problems}{253}{chapter.10}%
+\contentsline {section}{\numberline {10.1}The Power Method}{254}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Inverse Iteration Method}{257}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Jacobi Transformation}{259}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Advanced Methods}{262}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Triangular Matrices}{262}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Tridiagonal Matrices}{262}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}Householder Reduction}{263}{subsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.4.4}QR Method}{263}{subsection.10.4.4}%
+\contentsline {section}{\numberline {10.5}Applications in Physics}{264}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Coupled Harmonic Oscillators}{264}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Chains of Atoms}{265}{subsection.10.5.2}%
+\contentsline {section}{\numberline {10.6}Problems}{269}{section.10.6}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{270}{section*.98}%
+\contentsline {section}{\numberline {}Python Source Codes}{277}{section*.99}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-11}
+\contentsline {chapter}{\numberline {11}Discrete Fourier Transform}{287}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Discrete Fourier Transform}{288}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Fast Fourier Transform}{290}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Remarks on the use of canned routines in MATLAB and Python}{292}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Forward or Backward Transformation}{293}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Prefactor in front of the Summation}{293}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Input/Output Format: Bit Reversed or Not}{293}{subsection.11.3.3}%
+\contentsline {subsection}{\numberline {11.3.4}Input/Output format: Periodicity}{294}{subsection.11.3.4}%
+\contentsline {section}{\numberline {11.4}Applications in Physics}{296}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}Laplacian operator}{296}{subsection.11.4.1}%
+\contentsline {subsection}{\numberline {11.4.2}Correlation Functions}{297}{subsection.11.4.2}%
+\contentsline {subsection}{\numberline {11.4.3}Spectral Analysis}{298}{subsection.11.4.3}%
+\contentsline {subsection}{\numberline {11.4.4}Wave Function in Momentum Space}{298}{subsection.11.4.4}%
+\contentsline {section}{\numberline {11.5}Problems}{300}{section.11.5}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{301}{section*.107}%
+\contentsline {section}{\numberline {}Python Source Codes}{306}{section*.108}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-12}
+\contentsline {chapter}{\numberline {12}Data Fitting}{313}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Spline}{314}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}Linear Spline}{314}{subsection.12.1.1}%
+\contentsline {subsection}{\numberline {12.1.2}Cubic Spline}{315}{subsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.1.3}Vandermonde matrix}{316}{subsection.12.1.3}%
+\contentsline {subsection}{\numberline {12.1.4}Lagrange Polynomial}{317}{subsection.12.1.4}%
+\contentsline {section}{\numberline {12.2}Least Square Fitting}{318}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}General Theory}{318}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}Linear Regression}{320}{subsection.12.2.2}%
+\contentsline {subsection}{\numberline {12.2.3}General Linear Least Square Fitting}{321}{subsection.12.2.3}%
+\contentsline {subsection}{\numberline {12.2.4}Nonlinear Least Square Fitting: Gauss-Newton method}{322}{subsection.12.2.4}%
+\contentsline {section}{\numberline {12.3}Applications in Physics}{324}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}Arrhenius Plot}{324}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.2}Life Time Broadening in Optical Spectrum}{324}{subsection.12.3.2}%
+\contentsline {section}{\numberline {12.4}Problems}{326}{section.12.4}%
+\contentsline {section}{\numberline {}Appendix}{327}{section*.122}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{328}{section*.123}%
+\contentsline {section}{\numberline {}Python Source Codes}{335}{section*.124}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-13}
+\contentsline {chapter}{\numberline {13}Partial Differential Equations I: Parabolic Equations}{347}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Diffusion Equation}{348}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Boundary Conditions}{349}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Forward Time Centered Space method}{351}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Runge-Kutta time evolution}{353}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Higher spatial dimensions}{353}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Schr\"{o}dinger Equations}{354}{section.13.6}%
+\contentsline {subsection}{\numberline {13.6.1}Crank-Nicolson method}{355}{subsection.13.6.1}%
+\contentsline {section}{\numberline {13.7}Applications in Physics}{356}{section.13.7}%
+\contentsline {subsection}{\numberline {13.7.1}Quantum Tunneling}{356}{subsection.13.7.1}%
+\contentsline {subsection}{\numberline {13.7.2}Pattern Formation}{357}{subsection.13.7.2}%
+\contentsline {section}{\numberline {}Program Lists}{360}{section*.130}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-14}
+\contentsline {chapter}{\numberline {14}Partial Differential Equations II: Elliptic Equations}{365}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Laplace equation}{365}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Relaxation method}{366}{section.14.2}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-15}
+\contentsline {chapter}{\numberline {15}Random Numbers}{367}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Stochastic Variables}{367}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Uniform Random Numbers}{368}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Non-uniform distributions}{370}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Gaussian random number}{372}{section.15.4}%
+\contentsline {subsection}{\numberline {15.4.1}Exponential distributions}{374}{subsection.15.4.1}%
+\contentsline {subsection}{\numberline {15.4.2}Evaluation of Mean}{374}{subsection.15.4.2}%
+\contentsline {section}{\numberline {15.5}Applications in Physics}{375}{section.15.5}%
+\contentsline {subsection}{\numberline {15.5.1}Thermal Speed}{375}{subsection.15.5.1}%
+\contentsline {subsection}{\numberline {15.5.2}Sedimentation-diffusion equilibrium}{376}{subsection.15.5.2}%
+\contentsline {subsection}{\numberline {15.5.3}Surface Growth: Random Deposition Models}{376}{subsection.15.5.3}%
+\contentsline {section}{\numberline {15.6}Problems}{380}{section.15.6}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{381}{section*.143}%
+\contentsline {section}{\numberline {}Python Source Codes}{389}{section*.144}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-16}
+\contentsline {chapter}{\numberline {16}Random Walks}{399}{chapter.16}%
+\contentsline {section}{\numberline {16.1}One-dimensional Random Walk}{399}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Persistent Random Walk}{401}{section.16.2}%
+\contentsline {section}{\numberline {16.3}Multi-dimensional Random Walk}{402}{section.16.3}%
+\contentsline {section}{\numberline {16.4}Applications in Physics}{403}{section.16.4}%
+\contentsline {subsection}{\numberline {16.4.1}Diffusion Limited Aggregates}{403}{subsection.16.4.1}%
+\contentsline {subsection}{\numberline {16.4.2}Dendrites}{405}{subsection.16.4.2}%
+\contentsline {subsection}{\numberline {16.4.3}Parrondo Paradox}{406}{subsection.16.4.3}%
+\contentsline {section}{\numberline {16.5}Problems}{407}{section.16.5}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{408}{section*.154}%
+\contentsline {section}{\numberline {}Python Source Codes}{415}{section*.155}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-17}
+\contentsline {chapter}{\numberline {17}Metropolis Method}{425}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Metropolis Algorithm for Thermal Equilibrium}{426}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Applications in Physics}{428}{section.17.2}%
+\contentsline {subsection}{\numberline {17.2.1}Ferromagnetic Phase Transition: 2D Ising Model}{428}{subsection.17.2.1}%
+\contentsline {subsection}{\numberline {17.2.2}Percolation}{430}{subsection.17.2.2}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{436}{section*.164}%
+\contentsline {section}{\numberline {}Python Source Codes}{442}{section*.165}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-18}
+\contentsline {chapter}{\numberline {18}Langevin Equations}{451}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Langevin equation}{452}{section.18.1}%
+\contentsline {subsection}{\numberline {18.1.1}Definition}{452}{subsection.18.1.1}%
+\contentsline {subsection}{\numberline {18.1.2}Overdamped Langevin equations and Wiener Processes}{453}{subsection.18.1.2}%
+\contentsline {subsection}{\numberline {18.1.3}Ornstein-Uhlenbeck process}{454}{subsection.18.1.3}%
+\contentsline {subsection}{\numberline {18.1.4}Numerical Algorithm: the Heun method}{454}{subsection.18.1.4}%
+\contentsline {section}{\numberline {18.2}Applications in Physics}{461}{section.18.2}%
+\contentsline {subsection}{\numberline {18.2.1}Brownian Motors: Flashing Ratchet}{461}{subsection.18.2.1}%
+\contentsline {subsection}{\numberline {18.2.2}Stochastic Resonance}{462}{subsection.18.2.2}%
+\contentsline {section}{\numberline {18.3}Problems}{464}{section.18.3}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{466}{section*.176}%
+\contentsline {section}{\numberline {}Python Source Codes}{474}{section*.177}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-19}
+\contentsline {chapter}{\numberline {19}Optimization}{485}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Fitness Functions}{486}{section.19.1}%
+\contentsline {section}{\numberline {19.2}Simulated Annealing}{488}{section.19.2}%
+\contentsline {section}{\numberline {19.3}Genetic Algorithm}{490}{section.19.3}%
+\contentsline {section}{\numberline {19.4}Applications in Physics}{495}{section.19.4}%
+\contentsline {subsection}{\numberline {19.4.1}Fitting to Gaussian Distribution}{495}{subsection.19.4.1}%
+\contentsline {subsection}{\numberline {19.4.2}Thomson problem}{496}{subsection.19.4.2}%
+\contentsline {section}{\numberline {19.5}Problems}{498}{section.19.5}%
+\contentsline {section}{\numberline {}MATLAB Source Codes}{499}{section*.189}%
+\contentsline {section}{\numberline {}Python Source Codes}{508}{section*.190}%
+\gdef \the@ipfilectr {}

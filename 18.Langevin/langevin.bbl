@@ -1,0 +1,61 @@
+\begin{thebibliography}{10}
+
+\bibitem{brownian_movement_einstein}
+Albert Einstein.
+\newblock {\em Investigations on the Theory of the Brownian Movement}.
+\newblock Dover Publications, 1956.
+
+\bibitem{langevin_eq_lemons}
+Don~S. Lemons and Anthony Gythiel.
+\newblock Paul langevin’s 1908 paper “on the theory of brownian motion”
+  [“sur la théorie du mouvement brownien,” c. r. acad. sci. (paris) 146,
+  530–533 (1908)].
+\newblock {\em American Journal of Physics}, 65(11):1079--1081, 1997.
+\newblock (An English tranlation of the original paper in French.).
+
+\bibitem{langevin_eq_zwanzig}
+Robert Zwanzig.
+\newblock {\em Nonequilibrium Statistical Mechanics}.
+\newblock Oxford University Press, 2001.
+\newblock Chapter 1.
+
+\bibitem{langevin_eq_sekimoto}
+Ken Sekimoto.
+\newblock {\em Stochastic Energetics}.
+\newblock Springer, 2010.
+\newblock Chapter 1.
+
+\bibitem{equipartition}
+Stephen~J. Blundell and Katherine~M. Blundell.
+\newblock {\em Concepts in Thermal Physics}.
+\newblock Oxford University Press, 2nd edition, 2010.
+\newblock Chapter 19.
+
+\bibitem{fd_theorem}
+Stephen~J. Blundell and Katherine~M. Blundell.
+\newblock {\em Concepts in Thermal Physics}.
+\newblock Oxford University Press, 2nd edition, 2010.
+\newblock Chapter 33.
+
+\bibitem{ratchet-sciam}
+R.~Dean Astumian.
+\newblock Making molecules into motors.
+\newblock {\em Scientific American}, 285(1):57, July 2001.
+
+\bibitem{ratchet-phystoday}
+R.~Dean Astumian and Peter H\"{a}nggi.
+\newblock Brownian motors.
+\newblock {\em Physics Today}, pages 33--39, November 2002.
+
+\bibitem{sr_wiesenfeld}
+Kurt Wiesenfeld and Frank Moss.
+\newblock Stochastic resonance and the benefits of noise: from ice ages to
+  crayfish and squids.
+\newblock {\em Nature}, 375:33--36, 1995.
+
+\bibitem{sr_bulsara}
+Adi~R. Bulsara and Luca Gammaitoni.
+\newblock Tuning in to noise.
+\newblock {\em Physics Today}, 1996.
+
+\end{thebibliography}

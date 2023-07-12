@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+
+\bibitem{wiki_ascii}
+See for~example Wikipedia.
+\newblock https://en.wikipedia.org/wiki/ascii.
+
+\bibitem{widrow2008}
+Bernard Widrow and Istv\'{a}n Koll\'{a}r.
+\newblock {\em Quantization Noise: Roundoff Error in Digital Computation,
+  Signal Processing, Control, and Communications}.
+\newblock Cambridge University Press, 2008.
+
+\bibitem{Griffiths}
+David Griffiths.
+\newblock {\em Introduction to Quantum Mechanics}.
+\newblock Pearson Prentice Hall, 2nd edition, 2005.
+
+\bibitem{Skeel1992}
+Robert Skeel.
+\newblock Roundoff error and the patriot missile.
+\newblock {\em SIAM News}, 25:11, nov 1992.
+
+\bibitem{Goldberg1991}
+David Goldberg.
+\newblock What every computer scientist should know about floating point
+  arithmetic.
+\newblock {\em ACM Computing Surveys}, 23(1):5--48, 1991.
+
+\bibitem{Zwillinger2012}
+Daniel Zwillinger.
+\newblock {\em CRC Stanbdard Mathematical Tables and Formula}.
+\newblock CRC Press, 35th edition, 2012.
+
+\end{thebibliography}

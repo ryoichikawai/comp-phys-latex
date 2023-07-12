@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{Griffiths}
+David Griffiths.
+\newblock {\em Introduction to Quantum Mechanics}.
+\newblock Pearson Prentice Hall, 2nd edition, 2005.
+
+\bibitem{Blundell}
+Stephen~J. Blundell and Katherine~M. Blundell.
+\newblock {\em Concepts in Thermal Physics}.
+\newblock Oxford University Press, 2nd edition, 2010.
+
+\bibitem{Taylor2005}
+John~R. Taylor.
+\newblock {\em Classical Mechanics}.
+\newblock University Science Books, 2005.
+
+\bibitem{Goldstein2002}
+Herbert Goldstein, Charles Poole, and John Safko.
+\newblock {\em Classical Mechanics}.
+\newblock Addison Wesley, 3rd edition, 2002.
+
+\bibitem{heat_phonon}
+Charles Kittel.
+\newblock {\em Introduction o Solid State Physics}.
+\newblock Wiley, 8th edition, 2004.
+\newblock Chapter 5.
+
+\bibitem{heat_electron}
+Charles Kittel.
+\newblock {\em Introduction o Solid State Physics}.
+\newblock Wiley, 8th edition, 2004.
+\newblock Chapter 6.
+
+\end{thebibliography}

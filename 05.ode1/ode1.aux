@@ -1,0 +1,193 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Ordinary Differential Equations I:\\ {Initial Value Problems}}{91}{chapter.5}\protected@file@percent }
+\newlabel{ch:ode1}{{5}{91}{Ordinary Differential Equations I:\\ {Initial Value Problems}}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Standard forms of Initial Value Problems in Physics}{91}{section.5.1}\protected@file@percent }
+\newlabel{eq:ode1st}{{5.1}{91}{Standard forms of Initial Value Problems in Physics}{equation.5.1.1}{}}
+\newlabel{eq:newton-eom}{{5.3}{92}{Standard forms of Initial Value Problems in Physics}{equation.5.1.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}First Order Differential Equations}{92}{section.5.2}\protected@file@percent }
+\newlabel{eq:ode-1d}{{5.4}{92}{First Order Differential Equations}{equation.5.2.4}{}}
+\newlabel{eq:ode-integral}{{5.5}{92}{First Order Differential Equations}{equation.5.2.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Euler Method}{92}{subsection.5.2.1}\protected@file@percent }
+\newlabel{sec:Euler}{{5.2.1}{92}{Euler Method}{subsection.5.2.1}{}}
+\newlabel{eq:ode-rectangular}{{5.6}{92}{Euler Method}{equation.5.2.6}{}}
+\newlabel{eq:euler-rule}{{5.7}{92}{Euler Method}{equation.5.2.7}{}}
+\newlabel{fig:euler-integral}{{5.1\relax a}{93}{The curve in the figure represents the integrand of Eq. (\ref {eq:ode-integral}), which is unknown to us. Knowing $F_n$ and $h$, we approximate the integral by the rectangular rule. The unaccounted area is proportional to $h^2$.\relax }{figure.caption.47}{}}
+\newlabel{sub@fig:euler-integral}{{a}{93}{The curve in the figure represents the integrand of Eq. (\ref {eq:ode-integral}), which is unknown to us. Knowing $F_n$ and $h$, we approximate the integral by the rectangular rule. The unaccounted area is proportional to $h^2$.\relax }{figure.caption.47}{}}
+\newlabel{fig:euler-x}{{5.1\relax b}{93}{Using the slope of the curve $F_n$, we extrapolate next point $x_{n+1}$ assuming the curve is close to a straight line within a small step $h$.\relax }{figure.caption.47}{}}
+\newlabel{sub@fig:euler-x}{{b}{93}{Using the slope of the curve $F_n$, we extrapolate next point $x_{n+1}$ assuming the curve is close to a straight line within a small step $h$.\relax }{figure.caption.47}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1\relax }{\ignorespaces Illustration of the Euler method\relax }}{93}{figure.caption.47}\protected@file@percent }
+\newlabel{fig:euler-rule}{{5.1\relax }{93}{Illustration of the Euler method\relax }{figure.caption.47}{}}
+\newlabel{algo:euler}{{5.1}{93}{Euler Method}{Algorithm.5.1}{}}
+\citation{numerical_recipes}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Predictor-Corrector Method}{94}{subsection.5.2.2}\protected@file@percent }
+\newlabel{eq:ode-trapezoidal}{{5.8}{94}{Predictor-Corrector Method}{equation.5.2.8}{}}
+\newlabel{eq:ode-implicit}{{5.9}{94}{Predictor-Corrector Method}{equation.5.2.9}{}}
+\newlabel{algo:predictor-corrector}{{5.2}{94}{Predictor-Corrector Method}{Algorithm.5.2}{}}
+\newlabel{fig:predict-correct-integral}{{5.2\relax a}{95}{$F_{n+1}$ is linearly extrapolated from two previous points $F_{n-1}$ and $F_n$. Then, trapezoidal rule is used to integrate.\relax }{figure.caption.48}{}}
+\newlabel{sub@fig:predict-correct-integral}{{a}{95}{$F_{n+1}$ is linearly extrapolated from two previous points $F_{n-1}$ and $F_n$. Then, trapezoidal rule is used to integrate.\relax }{figure.caption.48}{}}
+\newlabel{fig:predict-correct-rule}{{5.2\relax b}{95}{The linear extrapolation in the left panel is equivalent to assume that the change of the slope ($\Delta $) is the same as that in the previous step.\relax }{figure.caption.48}{}}
+\newlabel{sub@fig:predict-correct-rule}{{b}{95}{The linear extrapolation in the left panel is equivalent to assume that the change of the slope ($\Delta $) is the same as that in the previous step.\relax }{figure.caption.48}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2\relax }{\ignorespaces Illustration of the Predictor-Corrector Method\relax }}{95}{figure.caption.48}\protected@file@percent }
+\newlabel{fig:predict-correct}{{5.2\relax }{95}{Illustration of the Predictor-Corrector Method\relax }{figure.caption.48}{}}
+\newlabel{ex:free_falling1}{{5.1}{95}{Predictor-Corrector Method}{figure.caption.48}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}2nd-Order Runge-Kutta Method}{95}{subsection.5.2.3}\protected@file@percent }
+\newlabel{sec:Runge-Kutta}{{5.2.3}{95}{2nd-Order Runge-Kutta Method}{subsection.5.2.3}{}}
+\newlabel{eq:ode-integral-mid}{{5.12}{95}{2nd-Order Runge-Kutta Method}{equation.5.2.12}{}}
+\newlabel{eq:runge-mid}{{5.13}{95}{2nd-Order Runge-Kutta Method}{equation.5.2.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3\relax }{\ignorespaces Output of Example \ref {ex:free_falling1}. The left panel shows the velocity as a function of time. All three lines look identical. The right panel shows the absolute errors. The error in the predictor-corrector method is clearly square of the error in the Euler method.\relax }}{96}{figure.caption.49}\protected@file@percent }
+\newlabel{fig:free_falling1}{{5.3\relax }{96}{Output of Example \ref {ex:free_falling1}. The left panel shows the velocity as a function of time. All three lines look identical. The right panel shows the absolute errors. The error in the predictor-corrector method is clearly square of the error in the Euler method.\relax }{figure.caption.49}{}}
+\newlabel{fig:runge-integral}{{5.4\relax a}{96}{Using the Euler method, $F_{n+1/2}$ is estimated. Then, the integral is approximated by the area of the rectangle.\relax }{figure.caption.50}{}}
+\newlabel{sub@fig:runge-integral}{{a}{96}{Using the Euler method, $F_{n+1/2}$ is estimated. Then, the integral is approximated by the area of the rectangle.\relax }{figure.caption.50}{}}
+\newlabel{fig:runge-x}{{5.4\relax b}{96}{The slop at the mid point ($k_2$) is estimate by the Euler method . Then the new point is predicted with the same slope (red line).\relax }{figure.caption.50}{}}
+\newlabel{sub@fig:runge-x}{{b}{96}{The slop at the mid point ($k_2$) is estimate by the Euler method . Then the new point is predicted with the same slope (red line).\relax }{figure.caption.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4\relax }{\ignorespaces Illustration of the second order Runge-Kutta Method.\relax }}{96}{figure.caption.50}\protected@file@percent }
+\newlabel{fig:runge-kutta-rule}{{5.4\relax }{96}{Illustration of the second order Runge-Kutta Method.\relax }{figure.caption.50}{}}
+\newlabel{algo:runge-kutta2}{{5.3}{97}{2nd-Order Runge-Kutta Method}{Algorithm.5.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}4th-Order Runge-Kutta Method}{97}{subsection.5.2.4}\protected@file@percent }
+\newlabel{algo:runge-kutta4}{{5.4}{98}{4th-Order Runge-Kutta Method}{Algorithm.5.4}{}}
+\newlabel{ex:free_falling2}{{5.2}{98}{4th-Order Runge-Kutta Method}{Item.98}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.5}Adaptive Step: Runge-Kutta-Fehlberg Method}{98}{subsection.5.2.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5\relax }{\ignorespaces Output of Example \ref {ex:free_falling2}. The left panel shows the velocity as a function of time. All three lines look identical. The right panel shows the absolute errors. The 4th order Runge-Kutta method is clearly more accurate than the 2nd order method.\relax }}{99}{figure.caption.51}\protected@file@percent }
+\newlabel{fig:free_falling2}{{5.5\relax }{99}{Output of Example \ref {ex:free_falling2}. The left panel shows the velocity as a function of time. All three lines look identical. The right panel shows the absolute errors. The 4th order Runge-Kutta method is clearly more accurate than the 2nd order method.\relax }{figure.caption.51}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6\relax }{\ignorespaces Output of Example \ref {ex:free_falling3}. The left panel shows the velocity as a function of time. The circles on the top indicates the time step. The right panel shows the absolute errors which remains below the tolerance $10^{-3}$.\relax }}{100}{figure.caption.52}\protected@file@percent }
+\newlabel{fig:free_falling3}{{5.6\relax }{100}{Output of Example \ref {ex:free_falling3}. The left panel shows the velocity as a function of time. The circles on the top indicates the time step. The right panel shows the absolute errors which remains below the tolerance $10^{-3}$.\relax }{figure.caption.52}{}}
+\newlabel{ex:free_falling3}{{5.3}{100}{Adaptive Step: Runge-Kutta-Fehlberg Method}{equation.5.2.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Coupled ODEs}{100}{section.5.3}\protected@file@percent }
+\newlabel{eq:coupled-ode}{{5.22}{101}{Coupled ODEs}{equation.5.3.22a}{}}
+\newlabel{ex:twocars}{{5.4}{101}{Coupled ODEs}{equation.5.3.23a}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Second-Order Differential Equations}{101}{section.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7\relax }{\ignorespaces Output of Example \ref {ex:twocars}. Left: The velocity of each car. At the end two cars travel at the same velocity. Right: The difference in velocities. The velocity difference decreases exponentially. The 2nd order Runge-Kutta method with $h=0.02$ is used.\relax }}{102}{figure.caption.53}\protected@file@percent }
+\newlabel{fig:twocars}{{5.7\relax }{102}{Output of Example \ref {ex:twocars}. Left: The velocity of each car. At the end two cars travel at the same velocity. Right: The difference in velocities. The velocity difference decreases exponentially. The 2nd order Runge-Kutta method with $h=0.02$ is used.\relax }{figure.caption.53}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Converting to a Coupled First-Order ODEs}{102}{subsection.5.4.1}\protected@file@percent }
+\newlabel{eq:ode2nd}{{5.25}{102}{Converting to a Coupled First-Order ODEs}{equation.5.4.25}{}}
+\newlabel{ex:harmonic_oscillator1}{{5.5}{102}{Converting to a Coupled First-Order ODEs}{equation.5.4.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8\relax }{\ignorespaces Left: Trajectory of a simple harmonic oscillator ($\omega =1$): The Newtons equation of motion is integrated with 4th order Runge-Kutta method ($h=0.05$). Right: Absolute error. The error is very small but gradually increasing as the number of iterations increase. \relax }}{103}{figure.caption.54}\protected@file@percent }
+\newlabel{fig:harmonic_oscillator1}{{5.8\relax }{103}{Left: Trajectory of a simple harmonic oscillator ($\omega =1$): The Newtons equation of motion is integrated with 4th order Runge-Kutta method ($h=0.05$). Right: Absolute error. The error is very small but gradually increasing as the number of iterations increase. \relax }{figure.caption.54}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Verlet Method}{103}{subsection.5.4.2}\protected@file@percent }
+\newlabel{eq:newton}{{5.30}{103}{Verlet Method}{equation.5.4.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9\relax }{\ignorespaces Left: Trajectory of a simple harmonic oscillator ($\omega =1$): The Newtons equation of motion is integrated with Verlet method ($h=0.05$). Right: Absolute error. The error is small but considerably larger that of 4th-order Runge-Kutta method in Fig. \ref {fig:harmonic_oscillator1}. \relax }}{104}{figure.caption.55}\protected@file@percent }
+\newlabel{fig:harmonic_oscillator2}{{5.9\relax }{104}{Left: Trajectory of a simple harmonic oscillator ($\omega =1$): The Newtons equation of motion is integrated with Verlet method ($h=0.05$). Right: Absolute error. The error is small but considerably larger that of 4th-order Runge-Kutta method in Fig. \ref {fig:harmonic_oscillator1}. \relax }{figure.caption.55}{}}
+\newlabel{eq:harmonic_oscillator2}{{5.6}{104}{Verlet Method}{equation.5.4.37}{}}
+\citation{brusselator}
+\citation{limitcycle1,limitcycle2}
+\citation{chaos1,chaos2}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10\relax }{\ignorespaces Limit cycle in the Brusselator dynamics. Parameter values: $a=1$ and $b=2.3$\relax }}{105}{figure.caption.56}\protected@file@percent }
+\newlabel{fig:brusselator}{{5.10\relax }{105}{Limit cycle in the Brusselator dynamics. Parameter values: $a=1$ and $b=2.3$\relax }{figure.caption.56}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Applications in Physics}{105}{section.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Nonlinear Chemical Dynamics: Brusselator}{105}{subsection.5.5.1}\protected@file@percent }
+\newlabel{eq:reaction}{{5.38}{105}{Nonlinear Chemical Dynamics: Brusselator}{equation.5.5.38}{}}
+\newlabel{eq:brusselator}{{5.39}{105}{Nonlinear Chemical Dynamics: Brusselator}{equation.5.5.39}{}}
+\citation{sync}
+\citation{sync,fireflies}
+\citation{sync}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1\relax }{\ignorespaces Parameter sets for Maxwell-Bloch equation.\relax }}{106}{table.caption.57}\protected@file@percent }
+\newlabel{tbl:maxwell_bloch}{{5.1\relax }{106}{Parameter sets for Maxwell-Bloch equation.\relax }{table.caption.57}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}Nonlinear Dynamics in Laser: Maxwell-Bloch equation}{106}{subsection.5.5.2}\protected@file@percent }
+\newlabel{sec:maxwell_bloch}{{5.5.2}{106}{Nonlinear Dynamics in Laser: Maxwell-Bloch equation}{subsection.5.5.2}{}}
+\newlabel{eq:maxwell-bloch}{{5.40}{106}{Nonlinear Dynamics in Laser: Maxwell-Bloch equation}{equation.5.5.40}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.3}Frequency Entrainment and Phase Synchronization}{106}{subsection.5.5.3}\protected@file@percent }
+\citation{coupled_oscillators}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11\relax }{\ignorespaces Left: Erroneous oscillation in the magnitude of electric field. Right: Three--dimensional phase plot of $E$, $P$ and $D$ showing a strange attractor. Parameter values: Type C in Table \ref {tbl:maxwell_bloch} and $\lambda =23$\relax }}{107}{figure.caption.58}\protected@file@percent }
+\newlabel{fig:maxwell_bloch}{{5.11\relax }{107}{Left: Erroneous oscillation in the magnitude of electric field. Right: Three--dimensional phase plot of $E$, $P$ and $D$ showing a strange attractor. Parameter values: Type C in Table \ref {tbl:maxwell_bloch} and $\lambda =23$\relax }{figure.caption.58}{}}
+\newlabel{eq:kuramoto}{{5.41}{107}{Frequency Entrainment and Phase Synchronization}{equation.5.5.41a}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.4}Period of Oscillation}{107}{subsection.5.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12\relax }{\ignorespaces Left: The trajectory of the oscillators. Each oscillator has its own natural frequency $\omega _1=1.0$ and $\omega _2=1.2$. Initially the two oscillators are out of phase. Despite of these differences, they are quickly synchronized and oscillate at the same frequency. Left: the phase difference rapidly changes at the beginning but settles to a constant phase difference. [The 2nd-order Runge-Kutta is used with $h=0.01$.]\relax }}{108}{figure.caption.59}\protected@file@percent }
+\newlabel{fig:kuramoto}{{5.12\relax }{108}{Left: The trajectory of the oscillators. Each oscillator has its own natural frequency $\omega _1=1.0$ and $\omega _2=1.2$. Initially the two oscillators are out of phase. Despite of these differences, they are quickly synchronized and oscillate at the same frequency. Left: the phase difference rapidly changes at the beginning but settles to a constant phase difference. [The 2nd-order Runge-Kutta is used with $h=0.01$.]\relax }{figure.caption.59}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.5}Pendulum}{108}{subsection.5.5.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.13\relax }{\ignorespaces The numerical instability with the Euler method. Left: Time evolution of angular coordinate $\theta $. The result of the Verlet method oscillates periodically as expected. However, the output of the Euler method oscillates with increasing amplitude and diverges at the end. Right: Mechanical energy. The energy with the Verlet method conserves but that of the Euler method keeps increasing. Integration step size $h=0.01$ is used.\relax }}{109}{figure.caption.60}\protected@file@percent }
+\newlabel{fig:pendulum_instability}{{5.13\relax }{109}{The numerical instability with the Euler method. Left: Time evolution of angular coordinate $\theta $. The result of the Verlet method oscillates periodically as expected. However, the output of the Euler method oscillates with increasing amplitude and diverges at the end. Right: Mechanical energy. The energy with the Verlet method conserves but that of the Euler method keeps increasing. Integration step size $h=0.01$ is used.\relax }{figure.caption.60}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.6}Scattering Angle}{109}{subsection.5.5.6}\protected@file@percent }
+\newlabel{eq:scattering_potential2}{{5.48}{110}{Scattering Angle}{equation.5.5.48}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.7}Double Pendulum}{110}{subsection.5.5.7}\protected@file@percent }
+\newlabel{eq:double_pendulum}{{5.52}{110}{Double Pendulum}{equation.5.5.52}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.14\relax }{\ignorespaces Scattering by a screened Coulomb force. Left: trajectories with different impact parameters. Notice the shadow cone behind the target where the particle cannot enter. Right: Scattering angle $\theta $ determined by the simulation.\relax }}{111}{figure.caption.61}\protected@file@percent }
+\newlabel{fig:scattering2}{{5.14\relax }{111}{Scattering by a screened Coulomb force. Left: trajectories with different impact parameters. Notice the shadow cone behind the target where the particle cannot enter. Right: Scattering angle $\theta $ determined by the simulation.\relax }{figure.caption.61}{}}
+\newlabel{eq:double_pendulum2}{{5.53}{111}{Double Pendulum}{equation.5.5.53a}{}}
+\citation{FitzHugh-Nagumo}
+\citation{spring_pendulum}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.15\relax }{\ignorespaces Chaotic motion of a double pendulum. Left: Two angular coordinates are randomly drifting. Right: The trajectory of the bottom bob shows chaotic motion. Parameter values: $m_1=2\, kg$, $m_2=1\, kg$, $L_1=1\, m$, $L_2=2\, m$, $h=0.02$.]\relax }}{112}{figure.caption.62}\protected@file@percent }
+\newlabel{fig:double_pendulum}{{5.15\relax }{112}{Chaotic motion of a double pendulum. Left: Two angular coordinates are randomly drifting. Right: The trajectory of the bottom bob shows chaotic motion. Parameter values: $m_1=2\, kg$, $m_2=1\, kg$, $L_1=1\, m$, $L_2=2\, m$, $h=0.02$.]\relax }{figure.caption.62}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Problems}{112}{section.5.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.16\relax }{\ignorespaces A spring pendulum for Problem \ref {ch:ode1}.3.\relax }}{113}{figure.caption.63}\protected@file@percent }
+\newlabel{fig:spring_pendulum}{{5.16\relax }{113}{A spring pendulum for Problem \ref {ch:ode1}.3.\relax }{figure.caption.63}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}MATLAB Source Codes}{114}{section*.64}\protected@file@percent }
+\newlabel{prog:freefalling1}{{5.1}{114}{MATLAB Source Codes}{program.5.1}{}}
+\newlabel{prog:freefalling2}{{5.2}{115}{MATLAB Source Codes}{program.5.2}{}}
+\newlabel{prog:freefalling3}{{5.3}{116}{MATLAB Source Codes}{program.5.3}{}}
+\newlabel{prog:twocars}{{5.4}{117}{MATLAB Source Codes}{program.5.4}{}}
+\newlabel{prog:harmonic_oscillator1}{{5.5}{118}{MATLAB Source Codes}{program.5.5}{}}
+\newlabel{prog:harmonic_oscillator2}{{5.6}{119}{MATLAB Source Codes}{program.5.6}{}}
+\newlabel{prog:brusselator}{{5.7}{120}{MATLAB Source Codes}{program.5.7}{}}
+\newlabel{prog:maxwell-bloch}{{5.8}{122}{MATLAB Source Codes}{program.5.8}{}}
+\newlabel{prog:kuramoto}{{5.9}{123}{MATLAB Source Codes}{program.5.9}{}}
+\newlabel{prog:period}{{5.10}{123}{MATLAB Source Codes}{program.5.10}{}}
+\newlabel{prog:pendulum}{{5.11}{124}{MATLAB Source Codes}{program.5.11}{}}
+\newlabel{prog:scattering2}{{5.12}{125}{MATLAB Source Codes}{program.5.12}{}}
+\newlabel{prog:double_pendulum}{{5.13}{127}{MATLAB Source Codes}{program.5.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}Python Source Codes}{129}{section*.65}\protected@file@percent }
+\bibstyle{unsrt}
+\bibdata{compphys}
+\bibcite{numerical_recipes}{{1}{}{{}}{{}}}
+\bibcite{brusselator}{{2}{}{{}}{{}}}
+\bibcite{limitcycle1}{{3}{}{{}}{{}}}
+\bibcite{limitcycle2}{{4}{}{{}}{{}}}
+\bibcite{chaos1}{{5}{}{{}}{{}}}
+\bibcite{chaos2}{{6}{}{{}}{{}}}
+\bibcite{sync}{{7}{}{{}}{{}}}
+\bibcite{fireflies}{{8}{}{{}}{{}}}
+\bibcite{coupled_oscillators}{{9}{}{{}}{{}}}
+\bibcite{FitzHugh-Nagumo}{{10}{}{{}}{{}}}
+\bibcite{spring_pendulum}{{11}{}{{}}{{}}}
+\@setckpt{05.ode1/ode1}{
+\setcounter{page}{141}
+\setcounter{equation}{59}
+\setcounter{enumi}{3}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{5}
+\setcounter{section}{6}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{16}
+\setcounter{table}{1}
+\setcounter{theorem}{0}
+\setcounter{algo}{0}
+\setcounter{parentequation}{59}
+\setcounter{FancyVerbLine}{0}
+\setcounter{linenumber}{1}
+\setcounter{LN@truepage}{172}
+\setcounter{FV@TrueTabGroupLevel}{0}
+\setcounter{FV@TrueTabCounter}{0}
+\setcounter{FV@HighlightLinesStart}{0}
+\setcounter{FV@HighlightLinesStop}{0}
+\setcounter{FancyVerbLineBreakLast}{0}
+\setcounter{FV@BreakBufferDepth}{0}
+\setcounter{tcbbreakpart}{1}
+\setcounter{tcblayer}{0}
+\setcounter{tcolorbox@number}{47}
+\setcounter{caption@flags}{2}
+\setcounter{continuedfloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{section@level}{1}
+\setcounter{Item}{101}
+\setcounter{Hfootnote}{6}
+\setcounter{bookmark@seq@number}{82}
+\setcounter{NAT@ctr}{11}
+\setcounter{AM@survey}{0}
+\setcounter{lstnumber}{1}
+\setcounter{program}{8}
+\setcounter{Algorithm}{4}
+\setcounter{exercise}{7}
+\setcounter{mathematica}{0}
+\setcounter{problem}{0}
+\setcounter{appendix}{0}
+\setcounter{lstlisting}{0}
+}

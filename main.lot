@@ -1,0 +1,53 @@
+\gdef \the@ipfilectr {@-1}
+\contentsline {table}{\numberline {1.1\relax }{\ignorespaces Common binary strings and their capacity\relax }}{2}{table.caption.8}%
+\contentsline {table}{\numberline {1.2\relax }{\ignorespaces The range of unsigned and signed integers in \texttt {MATLAB}\relax }}{3}{table.caption.9}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {table}{\numberline {3.1\relax }{\ignorespaces Weights and Abscissas for Gaussian-Laguerre quadrature\relax }}{52}{table.caption.32}%
+\contentsline {table}{\numberline {3.2\relax }{\ignorespaces Weights and Abscissas for Gaussian-Hermite Quadrature. Abscissas are symmetric with respect to $x=0$. Therefore, for every positive abscissa $x$ there is negative one $-x$. Only non-negative abscissas are shown.\relax }}{53}{table.caption.33}%
+\contentsline {table}{\numberline {3.3\relax }{\ignorespaces Weights and Abscissas for Gaussian-Legendre Quadrature. Abscissas are symmetric with respect to $x=0$. Therefore, for every positive abscissa $x$ there is negative one $-x$. Only non-negative abscissas are shown.\relax }}{54}{table.caption.34}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {table}{\numberline {5.1\relax }{\ignorespaces Parameter sets for Maxwell-Bloch equation.\relax }}{106}{table.caption.57}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {table}{\numberline {7.1\relax }{\ignorespaces The first five roots of airy function $\Ai (x)$ and eigenvalues by numerically solving the Schr\"{o}dinger equation (\ref {eq:bounce_qm}).\relax }}{172}{table.caption.76}%
+\contentsline {table}{\numberline {7.2\relax }{\ignorespaces Values of the constants for the Morse potential.\relax }}{173}{table.caption.78}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-10}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-11}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-12}
+\contentsline {table}{\numberline {12.1\relax }{\ignorespaces Data for polynomial fitting\relax }}{315}{table.caption.110}%
+\contentsline {table}{\numberline {12.2\relax }{\ignorespaces Data set for Example \ref {ex:linear_regression}.\relax }}{320}{table.caption.114}%
+\contentsline {table}{\numberline {12.3\relax }{\ignorespaces Data set for Example \ref {ex:linear_regression}.\relax }}{322}{table.caption.115}%
+\contentsline {table}{\numberline {12.4\relax }{\ignorespaces Reaction rate $k$ as a function of absolute temperature $T$. The reaction rate is in an arbitrary unit. The bottom two rows show $\log k$ as a function pf $\beta = 1/k_\textsc {b} T$.\relax }}{324}{table.caption.117}%
+\contentsline {table}{\numberline {12.5\relax }{\ignorespaces Data set for Lorentzian\relax }}{325}{table.caption.119}%
+\contentsline {table}{\numberline {12.6\relax }{\ignorespaces Decay rate of a radioactive nuclide.\relax }}{326}{table.caption.121}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-13}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-14}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-15}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-16}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-17}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-18}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-19}
+\contentsline {table}{\numberline {19.1\relax }{\ignorespaces Data set for Gaussian distribution\relax }}{495}{table.caption.186}%
+\gdef \the@ipfilectr {}

@@ -1,0 +1,34 @@
+\chapter{Partial Differential Equations II: Elliptic Equations}\label{ch:pde-heat}
+
+In this chapter, we develop numerical methods for Laplace equation in the two-dimensional space, a simple partial differential equation of the elliptic type. We begin with a simple iterative algorithm known as relaxation method and improve it with a similar iterative method called simultaneous overrelaxation.
+
+\section{Laplace equation}
+
+Consider a scalar field $\phi(\vb{r})$ which satisfies Laplace equation
+\begin{equation}\label{eq:laplace}
+\laplacian \phi(\vb{r}) = 0.
+\end{equation}
+This equation is one of essential equations in the theory of electromagnetism.  It also appears in other physics such as fluid dynamics.  In this chapter we focus on the two-dimensional version of the Laplace equation
+\begin{equation}
+\pdv[2]{\phi(x,y)}{x} + \pdv[2]{\phi(x,y)}{y} = 0
+\end{equation}
+For simplicity, we consider a rectangular space with diagonal corners $(0,0)$ and $(L_x,L_y)$.
+We will consider two types of boundary conditions,  the Dirichlet conditions
+\begin{equation}
+\phi(0,y)=a, \quad \phi(L_x,y) = b), \quad \phi(x,0) = c, \quad \phi(x,L_y) = d
+\end{equation}
+or Neumann codintions
+\begin{equation}
+\phi_x(0,y)=a, \quad \phi_x(L_x,y) = b), \quad \phi_y(x,0) = c, \quad \phi_y(x,L_y) = d
+\end{equation}
+where $\phi_x = \pdv{\phi}{x}$ and $\phi_y = \pdv{\phi}{y}$.
+
+
+To solve equation, Eq. \eqref{laplace}, we consider diffusion in the two-dimensional space.  The diffusion equation
+\begin{equation}
+\pdv{t} \rho(x,y,t) = D \left( \pdv[2]{x} \rho(x,y,t) + \pdv[2]{y} \rho(x,y,t) \right)
+\end{equation}
+where $D$ is the diffusion constant.  We already calculated the one-dimensional version of this equation in Chapter \ref{ch:pde1}.
+It is known that the solution to the diffusion equation approach an time-independent solution called steady state
+
+\section{Relaxation method}

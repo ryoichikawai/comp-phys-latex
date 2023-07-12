@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{sm1}
+David Chandler.
+\newblock {\em Introduction to Modern Statistical Mechanics}.
+\newblock Oxford University Press, 1987.
+
+\bibitem{sm2}
+Frederick Reif.
+\newblock {\em Fundamentals of Statistical and Thermal Physics}.
+\newblock Waveland Pr Inc, 2008.
+
+\bibitem{monte_carlo_methods}
+David~P. Landau and Kurt Binder.
+\newblock {\em A Guide to Monte Carlo Simulations in Statistical Physics}.
+\newblock Cambridge University Press, 4th edition, 2014.
+
+\bibitem{metropolis1953}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
+
+\bibitem{detailed_balance}
+Frederick Reif.
+\newblock {\em Fundamentals of Statistical and Thermal Physics}.
+\newblock Waveland Pr Inc, 2008.
+\newblock Section 9.5.
+
+\bibitem{percolation}
+Dietrich Stauffer and Ammon Aharony.
+\newblock {\em Introduction To Percolation Theory}.
+\newblock Taylor \& Francis, 2nd edition, 1994.
+
+\bibitem{hoshen1976}
+J.~Hoshen and R.~Kopelman.
+\newblock Percolation and cluster distribution. i. cluster multiple labeling
+  technique and critical concentration algorithm.
+\newblock {\em Physical Review B: Condensed Matter and Materials Physics},
+  14:3438--3445, Oct 1976.
+
+\bibitem{newman2001}
+M.~E.~J. Newman and R.~M. Ziff.
+\newblock Fast monte carlo algorithm for site or bond percolation.
+\newblock {\em Physical Review E: Statistical, Nonlinear, and Soft Matter
+  Physics}, 64:016706, Jun 2001.
+
+\end{thebibliography}

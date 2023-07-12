@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/TeX Live for SUSE Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 01.numbers/numbers.aux
+The style file: unsrt.bst
+Database file #1: compphys.bib
+Warning--entry type for "wiki_ascii" isn't style-file defined
+--line 778 of file compphys.bib
+You've used 6 entries,
+            1791 wiz_defined-function locations,
+            482 strings with 4210 characters,
+and the built_in function-call counts, 962 in all, are:
+= -- 82
+> -- 28
+< -- 0
++ -- 13
+- -- 7
+* -- 41
+:= -- 158
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 53
+empty$ -- 115
+format.name$ -- 7
+if$ -- 218
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 8
+newline$ -- 32
+num.names$ -- 6
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 20
+stack$ -- 0
+substring$ -- 22
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 9
+width$ -- 7
+write$ -- 63
+(There was 1 warning)
